@@ -52,7 +52,7 @@ services:
     image: proxy:latest
     restart: always
     build:
-      context: ./Docker/proxy
+      context: ./docker/proxy
     depends_on:
       - backend
     ports:
@@ -68,7 +68,7 @@ services:
     image: certbot:latest
     restart: always
     build:
-      context: ./Docker/certbot
+      context: ./docker/certbot
     command: echo "Skipping..."
     volumes:
       - certbot-web:/var/www
