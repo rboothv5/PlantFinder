@@ -1,0 +1,379 @@
+.SummaryReport{
+	position: relative;
+	width:100%;
+}
+
+.SummaryReport th{
+	padding:8px 8px 8px 8px;
+	text-align: left;
+}
+
+.SummaryReport td{
+	padding:4px 4px 4px 8px;
+	text-align: left;
+}
+
+.SummaryReportHeaderDark th, 
+.SummaryReportHeaderDark td{
+	color:white;
+}
+
+.SummaryReportHeaderLight th, 
+.SummaryReportHeaderLight td{
+	color:#181825;
+}
+
+.SummaryContainer{
+	text-align: center;
+}
+
+@media screen and (max-width: 1920px) and (max-height: 1080px){
+			
+	.SummaryReport th{
+		font-size:19px;
+		font-weight: bold;
+	}
+	
+	.SummaryReport td{
+		font-size:17px;
+	}
+
+	.HeaderSelectAllRecords .chkSelectAllRecords{
+		position:relative;
+		transform: scale(1.4);
+	}
+	
+	.SummaryReportHeaderDark .HeaderSelectAllRecords, 
+	.SummaryReportHeaderLight .HeaderSelectAllRecords{
+		width:1%;
+		padding-left:12px;
+	}
+
+	.SummaryReportRowDark .tdSelectSingleRecordDark,
+	.SummaryReportRowLight .tdSelectSingleRecordLight{
+		transform: scale(1.4);
+		padding-left:16px;
+	}
+
+	.iconDeleteAll{
+		position:absolute;
+		color: red;
+		left:2.4%;
+		cursor: pointer;
+		top:0.6vh
+	}
+	
+	.HeaderFirstNameDark, 
+	.HeaderFirstNameLight,
+	.tdFirstNameDark, 
+	.tdFirstNameLight{
+		width:3%;
+	} 
+
+	.HeaderSurnameDark, 
+	.HeaderSurnameLight,
+	.tdSurnameDark, 
+	.tdSurnameLight{
+		width:3%;
+	} 
+
+
+	.HeaderDateAddedDark, 
+	.HeaderDateAddedLight,
+	.tdDateAddedLight, 
+	.tdDateAddedDark{
+		width:1.5%;
+	}
+
+	.HeaderIdentifiedPlantDark, 
+	.HeaderIdentifiedPlantLight,
+	.tdIdentifiedPlantDark, 
+	.tdIdentifiedPlantLight{
+		width:1.5%;
+	}
+
+	.HeaderScoreDark,
+	.HeaderScoreLight,
+	.tdScoreDark,
+	.tdScoreLight{
+		width:1.4%;
+	}
+
+	.HeaderCommentsDark, 
+	.HeaderCommentsLight,
+	.DataCommentsDark,
+	.DataCommentsDark{
+		width:10%;
+	}
+	
+	.HeaderActionsDark, 
+	.HeaderActionsLight{
+		width:0.5% !important;
+		text-align: center !important;
+	}
+
+	.tdActionButtons{
+		width:0%;
+		text-align: center;
+	}
+
+	.tdFirstNameLight, 
+	.tdSurnameLight, 
+	.tdDateAddedLight, 
+	.tdIdentifiedPlantLight,
+	.tdScoreLight,
+	.DataCommentsLight{
+		color:#181825;
+	}
+
+	.tdFirstNameLight, 
+	.tdSurnameLight, 
+	.tdDateAddedLight, 
+	.tdIdentifiedPlantLight,
+	.tdScoreLight,
+	.DataCommentsLight{
+		color:white;
+	}
+
+	.SummaryReportRowDark .CommentsOverflowDark {
+		width:100%;
+		height:60px;
+		overflow-y: auto;
+		color:white;
+		text-align: justify;
+		padding-right:8px;
+		
+	}
+
+	.SummaryReportRowLight .CommentsOverflowLight {
+		width:100%;
+		height:60px;
+		overflow-y: auto;
+		color:#181825;
+		text-align: justify;
+		padding-right:8px;
+	}
+			
+	.SummaryReportHeaderDark{
+		background-color:  #354147;
+	}
+
+	.SummaryReportHeaderLight{
+		background-color:  #0490bf
+	}
+
+	.DeleteAllRows{
+		background: transparent;
+		border: none !important;
+	}
+	
+	.SummaryReportRowDark:nth-child(even){
+		background: #354147
+	}
+		
+	.SummaryReportRowDark:nth-child(odd){
+		background: #5b5d5f
+	}
+	
+	.SummaryReportRowLight:nth-child(odd){
+		background: #6bb7da
+	}
+	
+	.SummaryReportRowLight:nth-child(even){
+		background:  #0490bf;
+	}
+
+	.SummaryReportRowDark:hover{
+		background-color: #27b0ff;
+	}
+
+	.SummaryReportRowLight:hover{
+		background-color: #20a348
+	}
+
+	.lblNoRecordsFoundDark, 
+	.lblNoRecordsFoundLight{
+		position: relative;
+		font-size: 24px;
+		text-align: center;
+		top:30vh;
+		margin: auto;
+	}
+
+	.lblNoRecordsFoundLight{
+		color:#181825;
+	}
+
+	.lblNoRecordsFoundDark{
+		color:white;
+	}
+}
+
+@media screen and (max-width: 1366px) and (max-height: 768px){
+	
+	body .SummaryReport th{
+		font-size:16px;
+		font-weight: bold;
+	}
+	
+	body .SummaryReport td{
+		font-size:14px;
+	}
+
+	body .SummaryReportHeaderDark .HeaderSelectAllRecords, 
+	.SummaryReportHeaderLight .HeaderSelectAllRecords{
+		width:1.5%;
+		padding-left:11px;
+	}
+
+	body .SummaryReportRowDark .tdSelectSingleRecordDark,
+	body .SummaryReportRowLight .tdSelectSingleRecordLight{
+		transform: scale(1.4);
+		padding-left:14px;
+	}
+
+	body .iconDeleteAll{
+		position:absolute;
+		color: red;
+		left:2.8%;
+		cursor: pointer;
+		top:0.4vh
+	}
+	
+	body .HeaderFirstNameDark, 
+	body .HeaderFirstNameLight,
+	body .tdFirstNameDark, 
+	body .tdFirstNameLight{
+		width:3%;
+	} 
+
+	body .HeaderSurnameDark, 
+	body .HeaderSurnameLight,
+	body .tdSurnameDark, 
+	body .tdSurnameLight{
+		width:4%;
+	} 
+
+	body .HeaderDateAddedDark, 
+	body .HeaderDateAddedLight,
+	body .tdDateAddedLight, 
+	body .tdDateAddedDark{
+		width:2.5%;
+	}
+
+	body .HeaderIdentifiedPlantDark, 
+	body .HeaderIdentifiedPlantLight,
+	body .tdIdentifiedPlantDark, 
+	body .tdIdentifiedPlantLight{
+		width:2.5%;
+	}
+
+	body .HeaderScoreDark,
+	body .HeaderScoreLight,
+	body .tdScoreDark,
+	body .tdScoreLight{
+		width:2%;
+	}
+
+	body .HeaderCommentsDark, 
+	body .HeaderCommentsLigh,
+	body .DataCommentsDark,
+	body .DataCommentsDark {
+		width:10%;
+	}
+
+	body .HeaderActionsDark, 
+	body .HeaderActionsLight {
+		width:1% !important;
+		text-align: center !important;
+	}
+
+	body .tdActionButtons{
+		text-align: center;
+	}
+
+	body .tdFirstNameLight, 
+	body .tdSurnameLight, 
+	body .tdDateAddedLight, 
+	body .tdIdentifiedPlantLight,
+	body .tdScoreLight,
+	body .DataCommentsLight{
+		color:#181825;
+	}
+
+	body .tdFirstNameLight, 
+	body .tdSurnameLight, 
+	body .tdDateAddedLight, 
+	body .tdIdentifiedPlantLight,
+	body .tdScoreLight,
+	body .DataCommentsLight{
+		color:white;
+	}
+
+	body .SummaryReportRowDark .CommentsOverflowDark {
+		width:100%;
+		height:50px;
+		overflow-y: auto;
+		color:white;
+	}
+
+	body .SummaryReportRowLight .CommentsOverflowLight {
+		width:100%;
+		height:60px;
+		overflow-y: auto;
+		color:#181825;
+	}
+			
+	body .SummaryReportHeaderDark{
+		background-color:  #354147;
+	}
+
+	body .SummaryReportHeaderLight{
+		background-color:  #0490bf
+	}
+
+	body .DeleteAllRows{
+		background: transparent;
+		border: none !important;
+	}
+	
+	body .SummaryReportRowDark:nth-child(even){
+		background: #354147
+	}
+		
+	body .SummaryReportRowDark:nth-child(odd){
+		background: #5b5d5f
+	}
+	
+	body .SummaryReportRowLight:nth-child(odd){
+		background: #6bb7da
+	}
+	
+	body .SummaryReportRowLight:nth-child(even){
+		background:  #0490bf;
+	}
+
+	body .SummaryReportRowDark:hover{
+		background-color: #27b0ff;
+	}
+
+	body .SummaryReportRowLight:hover{
+		background-color: #20a348
+	}
+
+	body .lblNoRecordsFoundDark, 
+	body .lblNoRecordsFoundLight{
+		position: relative;
+		font-size: 22px;
+		text-align: center;
+		top:30vh;
+	}
+
+	body .lblNoRecordsFoundLight{
+		color:#181825;
+	}
+
+	body .lblNoRecordsFoundDark{
+		color:white;
+	}
+}

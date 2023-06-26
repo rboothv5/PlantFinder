@@ -1,0 +1,145 @@
+@media screen and (max-width: 1920px) and (max-height: 1080px){
+	.SampleImagesContainer{
+		position: relative;
+		overflow-y: auto;
+		height:42vh;
+		padding-right:14%;
+	}
+	
+	.iconError{
+		position: relative;
+		color:red;
+		top:10vh;
+	}
+
+	.SampleImageErrorDark, 
+	.SampleImageErrorLight{
+		position: relative;
+		display: inline-block;
+		font-size: 15px;
+		top:10vh;
+		font-size:15px;
+		
+	}
+
+	.SampleImageErrorLight{
+		color:#181825;
+	}
+	
+	.SampleImageErrorDark{
+		color:white;
+	}
+
+	.SampleImagesContainer ul{
+		text-align: center;
+		
+	}
+	
+	.liSampleImages {
+		position: relative;
+		display: inline-block;
+		padding-bottom:5%;
+		top:-1.2vh;
+	}
+	
+	.SampleImage{
+		width:7vw;
+		height:13vh;
+		border-radius: 15px;
+		cursor: pointer;
+	}
+
+	.SampleImage:hover{
+		position:relative;
+		width:8vw;
+		height:14vh;
+		left:-0.5vw;
+	}
+
+	.PlantNameDark, 
+	.PlantNameLight{
+		position:relative;
+		text-align: center;
+		top:0.7vh;
+		font-size:15px;
+	}
+
+	.PlantNameLight{
+		color:#181825;
+	}
+	
+	.PlantNameDark{
+		color:white;
+	}
+}
+
+@media screen and (max-width: 1366px) and (max-height: 768px){
+	
+	body .SampleImagesContainer{
+		position: relative;
+		overflow-y: scroll;
+		height:35vh;
+		padding-right:22%;
+	}
+	
+	body .iconError{
+		position: relative;
+		color:red;
+		top:8vh;
+	}
+
+	body .SampleImageErrorDark, 
+	body .SampleImageErrorLight{
+		position: relative;
+		display: inline-block;
+		font-size: 13px;
+		top:8vh;
+		
+	}
+
+	body .SampleImageErrorLight{
+		color:#181825;
+	}
+	
+	body .SampleImageErrorDark{
+		color:white;
+	}
+	
+	body .SampleImage{
+		width:8vw;
+		height:12vh;
+		border-radius: 15px;
+		cursor: pointer;
+	}	
+	
+	body .SampleImagesContainer ul{
+		text-align: center;
+	}
+		
+	body .liSampleImages {
+		display: inline-block;
+		padding-bottom:10%;
+	}
+	
+	body .SampleImage:hover{
+		width:9vw;
+		height:17vh;
+		left:-0.5vw;
+	}
+
+	body .PlantNameDark, 
+	body .PlantNameLight{
+		position:relative;
+		text-align: center;
+		top:0.5vh;
+		font-size: 13px;
+	}
+
+	body .PlantNameLight{
+		color:#181825;
+	}
+
+	body .PlantNameDark{
+		color:white;
+	}
+}

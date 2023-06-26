@@ -1,0 +1,34 @@
+.SidebarDark, 
+.SidebarLight{
+	position:absolute;
+	top:2vh;
+	height:96vh;
+	width:17%;
+	left:1%;
+	border-radius: 20px;
+}
+
+.SidebarLight{
+	background-color:#91dcff;
+}
+
+.SidebarDark{
+	background-color:#393E46;
+}
+
+.SidebarDark .SideBarMenuItems, 
+.SidebarLight .SideBarMenuItems{
+	position:absolute;
+	top:20%;
+	width:100%;
+}
+
+.CoverImage{
+	position:absolute;
+	top:1vh;
+	left: 2.5vw;
+	width:12vw;
+	height:19vh;
+	
+}
+

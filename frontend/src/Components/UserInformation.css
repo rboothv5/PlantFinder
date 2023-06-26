@@ -1,0 +1,314 @@
+* {
+	box-sizing: border-box;
+  }
+     
+label {
+	padding: 4px 8px 8px 8px;
+	display: inline-block;
+	font-weight: bold;
+}
+
+
+@media screen and (max-width: 1920px) and (max-height: 1080px){
+	
+	.AddUserInformationContainerDark, 
+	.AddUserInformationContainerLight {
+		top:-1.2vh;
+		position: relative;
+		height:23%;
+		margin:auto;
+		width:35%;
+		border-radius: 15px;
+	}
+
+	.AddUserInformationContainerLight {
+		background-color:#6cb7fd;
+		}
+
+	.AddUserInformationContainerDark {
+		background-color: #5B6370;
+	}
+
+	.AddUserInformationDetailDark, 
+	.AddUserInformationDetailLight{
+		padding-top:10px;
+		position: relative;
+		height:2%;
+		top:-2vh;
+	}
+
+	.lblUserInformationDark, 
+	.lblUserInformationLight{
+		position: relative;
+		text-align: center;
+		font-size:22px;
+		height:4vh;
+		font-weight:bold;
+		padding-top:6px;
+		border-top-left-radius: 15px;
+		border-top-right-radius: 15px;
+		width:100%;
+	}
+	 
+	.lblUserInformationLight{
+		background-color:#5897d3;
+	   	color:#181825;
+   }
+
+	.lblUserInformationDark{
+		background-color: #48494b;
+		color:white;
+	}
+
+	.lblFirstnameDark, 
+	.lblFirstnameLight {
+		position:relative;
+		font-size: 16px;
+		left:5%;
+		width: 20%;
+		top:0.5vh;
+	}
+	
+	.lblFirstnameDark, 
+	.lblSurnameDark, 
+	.lblCommentsDark{
+		color:white;
+	}
+
+	.lblFirstnameLight, 
+	.lblSurnameLight, 
+	.lblCommentsLight{
+		color:#181825;
+	}
+
+	.dataFirstnameDark, 
+	.dataFirstnameLight {
+		position: relative;
+		left:32%;
+		font-size: 16px;
+		top:-2.5vh;
+	}
+
+	.inputFirstnameDark, 
+	.inputFirstnameLight,
+	.inputSurnameDark, 
+	.inputSurnameLight{
+		width: 60%;
+		border: none;
+		padding:4px;
+		font-size: 15px;
+		border-radius:4px;
+	}
+
+	.inputFirstnameDark, 
+	.inputSurnameDark, 
+	.inputCommentsDark{
+		background-color: #828586;
+		color:white;
+	}
+
+	.inputFirstnameLight, 
+	.inputSurnameLight, 
+	.inputCommentsLight{
+		background-color: #5897d3;
+		color:#181825;
+	}
+
+	.lblSurnameDark, 
+	.lblSurnameLight {
+		position:relative;
+		font-size: 16px;
+		left:7%;
+		width: 20%;
+		top:-1.5vh;
+	}
+	
+	.dataSurnameDark, 
+	.dataSurnameLight {
+		position: relative;
+		left:32%;
+		padding-top:3px;
+		top:-4.5vh;
+	}
+
+	.lblCommentsDark, 
+	.lblCommentsLight {
+		position:relative;
+		font-size: 16px;
+		left:3%;
+		text-align: right;
+		width: 20%;
+		top:-3.5vh;
+	}
+	
+	.dataCommentsDark, 
+	.dataCommentsLight {
+		position: relative;
+		left:32%;
+		padding-top:2px;
+		top:-6.5vh;
+		height:10%;
+	}
+
+	.inputCommentsDark, 
+	.inputCommentsLight{
+		width: 60%;
+		height:6vh;
+		font-family: 'Roboto';
+		border: none;
+		resize:none;
+		padding:4px;
+		font-size: 15px;
+		border-radius:4px;
+	}
+}
+
+@media screen and (max-width: 1366px) and (max-height: 768px){
+	
+	body .AddUserInformationContainer{
+		position:relative;
+		height:22%;
+	}
+	
+	body .AddUserInformationDetailDark, 
+	body .AddUserInformationDetailLight{
+		padding-top:10px;
+		position: relative;
+		height:2%;
+		top:-2vh;
+	}
+
+	body .lblUserInformationDark, 
+	body .lblUserInformationLight{
+		position: relative;
+		text-align: center;
+		font-size:18px;
+		height:4vh;
+		padding-top:5px;
+		border-top-left-radius: 15px;
+		font-weight:bold;
+		border-top-right-radius: 15px;
+		width:100%;
+	}
+	 
+	body .lblUserInformationLight{
+		background-color:#65aecf;
+	   	color:#181825;
+   }
+
+   body .lblUserInformationDark{
+		background-color: #48494b;
+		color:white;
+	}
+
+	body .AddUserInformationContainerDark, 
+	body .AddUserInformationContainerLight{
+		top:-1.5vh;
+		position: relative;
+		margin:auto;
+		width:40%;
+		border-radius: 15px;
+	}
+	
+	body .AddUserInformationContainerDark{
+		background-color: #5B6370;
+	}
+
+	body .AddUserInformationContainerLight{
+		background-color:#91dcff;
+	}
+
+	body .lblFirstnameDark, 
+	body .lblFirstnameLight {
+		position:relative;
+		font-size: 14px;
+		left:5%;
+		top:-0.5vh;
+	}
+
+	body .lblFirstnameDark, 
+	body .lblSurnameDark, 
+	body .lblCommentsDark{
+		color:white;
+	}
+
+	body .lblFirstnameLight, 
+	body .lblSurnameLight, 
+	body .lblCommentsLight{
+		color:#181825;
+	}
+	
+	body .dataFirstnameDark, 
+	body .dataFirstnameLight {
+		position: relative;
+		left:35%;
+		color:white;
+		top:-4vh;
+	}
+
+	body .inputFirstnameDark, 
+	body .inputFirstnameLight,
+	body .inputSurnameDark, 
+	body .inputSurnameLight{
+		width: 57%;
+		border: none;
+		padding:4px;
+		border-radius:4px;
+		font-size: 13px;
+	}
+
+	.inputFirstnameDark, 
+	.inputSurnameDark, 
+	.inputCommentsDark{
+		background-color: #828586;
+		color:white
+	}
+
+	.inputFirstnameLight, 
+	.inputSurnameLight, 
+	.inputCommentsLight{
+		background-color: #5897d3;
+		color:#181825;
+	}
+
+	body .lblSurnameDark, 
+	body .lblSurnameLight {
+		position:relative;
+		font-size: 14px;
+		left:8%;
+		top:-3vh;
+	}
+	
+	body .dataSurnameDark, 
+	body .dataSurnameLight {
+		position: relative;
+		left:35%;
+		padding-top:6px;
+		top:-7vh;
+	}
+
+	body .lblCommentsDark, 
+	body .lblCommentsLight {
+		position:relative;
+		font-size: 14px;
+		left:3%;
+		text-align: right;
+		top:-6vh;
+	}
+	
+	body .dataCommentsDark, 
+	body .dataCommentsLight {
+		position: relative;
+		left:35%;
+		padding-top:6px;
+		top:-10vh;
+	}
+
+	body .inputCommentsDark, 
+	body .inputCommentsLight{
+		width: 57%;
+		height:5vh;
+		border-radius:4px;
+		font-size: 13px;
+	}
+}

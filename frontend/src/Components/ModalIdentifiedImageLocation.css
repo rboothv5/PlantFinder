@@ -1,0 +1,146 @@
+.ModalIdentifiedImageLocation-Backdrop{
+	position:absolute;
+	top:0%;
+	left:0px;
+	width:100%;
+	height:100%;
+	background: rgba(57, 62, 70, 0.85);
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	z-index: 3;
+}
+
+.ModalIdentifiedImageLocationHeaderDark, 
+.ModalIdentifiedImageLocationHeaderLight{
+	position:relative;
+	top:0px;
+	height:10%;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+  
+.ModalIdentifiedImageLocationHeaderDark{
+	background-color: #5b5d5f;
+	border-bottom:2px solid #434547;
+}
+
+.ModalIdentifiedImageLocationHeaderLight{
+	background-color: #0490bf;
+	border-bottom: 2px solid #416adb;
+}
+
+.ModalIdentifiedImageLocationContainerDark, 
+.ModalIdentifiedImageLocationContainerLight {
+	max-width: 35%;
+	position:relative;
+	top:18%;
+	height:60%;
+	margin: auto;
+	text-align: center;
+	border-radius:15px;
+}
+
+.IdentifiedImageLocationGoogleMapsContainerDark, 
+.IdentifiedImageLocationGoogleMapsContainerLight{
+	position:relative;
+	margin:auto;
+	top:3.5%;
+	width:90%;
+	height:82%;
+}
+
+.ModalIdentifiedImageLocationContainerLight {
+	background-color: #91dcff;
+}
+
+.ModalIdentifiedImageLocationContainerDark{
+	background-color: #7e8183;
+}
+
+@media screen and (max-width: 1920px) and (max-height: 1080px){
+	
+	.IdentifiedImageLocationDark, 
+	.IdentifiedImageLocationLight{
+		text-align: center;
+		font-weight: bold;
+		padding-top: 6px;
+		font-size: 30px;
+	}
+
+	.IdentifiedImageLocationDark{
+		color: white;
+	}
+	
+	.IdentifiedImageLocationLight{
+		color: #181825;
+	}
+
+	.CloseModalIdentifiedImageLocationDark, 
+	.CloseModalIdentifiedImageLocationLight {
+		position:absolute;
+		top: 1%;
+		left:93%;
+		font-size: 25px;
+		border: none;
+		cursor: pointer;
+		z-index: 2;
+	}
+	
+	.CloseModalIdentifiedImageLocationDark{
+		background-color: #5b5d5f;
+		color:white;
+	}
+
+	.CloseModalIdentifiedImageLocationLight{
+		background-color: #0490bf;
+		color:#181825;
+	}
+
+	.CloseModalIdentifiedImageLocationDark:hover{
+		background-color: #434547;
+	}
+
+	.CloseModalIdentifiedImageLocationLight:hover{
+		background-color: #0479a0;
+	}
+}
+
+@media screen and (max-width: 1366px) and (max-height: 768px){
+	
+	body .IdentifiedImageLocationDark, 
+	body .IdentifiedImageLocationLight{
+		text-align: center;
+		font-weight: bold;
+		padding-top: 5px;
+		font-size: 24px;
+	}
+
+	body .IdentifiedImageLocationDark{
+		color: white;
+	}
+	
+	body .IdentifiedImageLocationLight{
+		color: #181825;
+	}
+
+	body .CloseModalIdentifiedImageLocationDark, 
+	body .CloseModalIdentifiedImageLocationLight {
+		position:absolute;
+		top: 0%;
+		left:92%;
+		font-size: 25px;
+		border: none;
+		cursor: pointer;
+		z-index: 2;
+	}
+	
+	body .CloseModalIdentifiedImageLocationDark{
+		background-color: #5b5d5f;
+		color:white;
+	}
+
+	body .CloseModalIdentifiedImageLocationLight{
+		background-color: #0490bf;
+		color:#181825;
+	}
+}

@@ -1,0 +1,283 @@
+.modalDeleteRecordDataOuterDark, 
+.modalDeleteRecordDataOuterLight{
+	top:27%;
+    display: flex;
+  	justify-content: center;
+  	align-items: center;
+	position: relative;
+	height:40vh;
+	width:15vw;
+	margin:auto;
+	border-radius: 15px;
+}
+
+.modalDeleteRecordDataOuterLight{
+	background-color:#8ec6ff;
+}
+
+.modalDeleteRecordDataOuterDark{
+	background-color: #67807b;
+}
+
+.ButtonAlignment{
+	display: flex;
+	justify-content:center;
+	top:85%;
+	position: absolute;
+	width:100%;
+	}
+
+.ActionType{
+	position:absolute;
+	font-size: 20px;
+	top:35%;
+	font-weight: bold;
+}
+
+.modalDeleteRecordDataOuterLight .iconSuccessDeleteRecord{
+	position:absolute;
+	top:8%;
+	color: 	rgb(4, 116, 4);
+}
+
+.modalDeleteRecordDataOuterDark .iconSuccessDeleteRecord{
+	position:absolute;
+	top:8%;
+	color: 	rgb(4, 116, 4);
+}
+
+.modalDeleteRecordDataOuterDark .iconExclamationDeleteRecord,
+.modalDeleteRecordDataOuterLight .iconExclamationDeleteRecord{
+	position:absolute;
+	top:8%;
+	color: 	rgb(211, 0, 0)
+}
+	
+.ButtonAlignment .DeleteRecordDarkEnabled, 
+.ButtonAlignment .DeleteRecordLightEnabled,
+.ButtonAlignment .CancelDeleteRecordDarkEnabled, 
+.ButtonAlignment .CancelDeleteRecordLightEnabled,
+.ButtonAlignment .DeleteConfirmationDark,
+.ButtonAlignment .DeleteConfirmationLight{
+	cursor: pointer;
+}
+
+.ButtonAlignment .DeleteRecordDarkDisabled, 
+.ButtonAlignment .DeleteRecordLightDisabled,
+.ButtonAlignment .CancelDeleteRecordDarkDisabled, 
+.ButtonAlignment .CancelDeleteRecordLightDisabled{
+	cursor: auto;
+}
+
+.ButtonAlignment .DeleteRecordDarkEnabled,
+.ButtonAlignment .DeleteRecordDarkDisabled,
+.ButtonAlignment .CancelDeleteRecordDarkEnabled,
+.ButtonAlignment .CancelDeleteRecordDarkDisabled,
+.ButtonAlignment .DeleteConfirmationDark{
+	background-color: #5795f1;
+}
+
+.ButtonAlignment .DeleteRecordLightEnabled,
+.ButtonAlignment .DeleteRecordLightDisabled,
+.ButtonAlignment .CancelDeleteRecordLightEnabled,
+.ButtonAlignment .CancelDeleteRecordLightDisabled,
+.ButtonAlignment .DeleteConfirmationLight{
+	background-color: #2cc583;
+}
+
+.ButtonAlignment .DeleteRecordDarkEnabled,
+.ButtonAlignment .CancelDeleteRecordDarkEnabled,
+.ButtonAlignment .DeleteConfirmationDark{
+	color: white;
+}
+
+.ButtonAlignment .DeleteRecordLightEnabled,
+.ButtonAlignment .CancelDeleteRecordLightEnabled,
+.ButtonAlignment .DeleteConfirmationLight{
+	color:#181825;
+}
+
+.ButtonAlignment .DeleteRecordDarkDisabled,
+.ButtonAlignment .CancelDeleteRecordDarkDisabled,
+.ButtonAlignment .DeleteRecordLightkDisabled,
+.ButtonAlignment .CancelDeleteRecordLightkDisabled{
+	color: rgb(104, 110, 110);
+}
+
+.ButtonAlignment .DeleteRecordDarkEnabled:hover,
+.ButtonAlignment .CancelDeleteRecordDarkEnabled:hover,
+.ButtonAlignment .DeleteConfirmationDark:hover{
+	background-color: #1b6eeb;
+}
+
+.ButtonAlignment .DeleteRecordLightEnabled:hover,
+.ButtonAlignment .CancelDeleteRecordLightEnabled:hover,
+.ButtonAlignment .DeleteConfirmationLight:hover{
+	background-color: #2e854c;
+}
+
+@media screen and (max-width: 1920px) and (max-height: 1080px){
+	
+	.ModalDeleteRecord-backdrop{
+		position:absolute;
+		top:5.6%;
+		align-content: center;
+		height:87%;
+		width:90%;
+		border-radius: 15px;
+		background: rgba(57, 62, 70, 0.85);
+		left:5%;
+		z-index: 7;
+	}
+	
+	.modalDeleteRecordDataOuterDark .MessageBoxTitleDark, 
+	.modalDeleteRecordDataOuterLight .MessageBoxTitleLight{
+		position:absolute;
+		font-size: 20px;
+		top:35%;
+		font-weight: bold;
+	}
+
+	.modalDeleteRecordDataOuterLight .MessageBoxTitleLight{
+		color:#181825;
+	}
+
+	.modalDeleteRecordDataOuterDark .MessageBoxTitleDark{
+		color:white;
+	}
+
+	.modalDeleteRecordDataOuterDark .MessageBoxDetailDark, 
+	.modalDeleteRecordDataOuterLight .MessageBoxDetailLight{
+		position:absolute;
+		padding-left:10px;
+		padding-right:10px;
+		font-size: 20px;
+		top:52%;
+		text-align: center;
+	}
+
+	.modalDeleteRecordDataOuterLight .MessageBoxDetailLight{
+		color:#181825;
+	}
+
+	.modalDeleteRecordDataOuterDark .MessageBoxDetailDark{
+		color:white;
+	}
+
+	.ButtonAlignment .DeleteRecordDarkEnabled, 
+	.ButtonAlignment .DeleteRecordDarkDisabled, 
+	.ButtonAlignment .DeleteRecordLightEnabled,
+	.ButtonAlignment .DeleteRecordLightDisabled,
+	.ButtonAlignment .CancelDeleteRecordDarkEnabled, 
+	.ButtonAlignment .CancelDeleteRecordDarkDisabled, 
+	.ButtonAlignment .CancelDeleteRecordLightEnabled,
+	.ButtonAlignment .CancelDeleteRecordLightDisabled,
+	.ButtonAlignment .DeleteConfirmationDark, 
+	.ButtonAlignment .DeleteConfirmationLight{
+		position: absolute;
+		border: none;
+		padding: 4px 4px 4px 4px;
+		border-radius: 40px;	
+		width:35%;
+		font-size: 18px;
+	}
+		
+	.ButtonAlignment .DeleteRecordDarkEnabled, 
+	.ButtonAlignment .DeleteRecordDarkDisabled, 
+	.ButtonAlignment .DeleteRecordLightEnabled,
+	.ButtonAlignment .DeleteRecordLightDisabled{
+		left:10%
+	}
+	
+	.ButtonAlignment .CancelDeleteRecordDarkEnabled, 
+	.ButtonAlignment .CancelDeleteRecordDarkDisabled, 
+	.ButtonAlignment .CancelDeleteRecordLightEnabled,
+	.ButtonAlignment .CancelDeleteRecordLightDisabled{
+		left:54%;
+	}
+}
+
+@media screen and (max-width: 1366px) and (max-height: 768px){
+	
+	body .ModalDeleteRecord-backdrop{
+		position:absolute;
+		top:5.5%;
+		align-content: center;
+		height:85.2%;
+		width:90%;
+		border-radius: 15px;
+		background: rgba(57, 62, 70, 0.85);
+		left:5%;
+		z-index: 7;
+	}
+	
+	body .modalDeleteRecordDataOuterDark .MessageBoxTitleDark, 
+	body .modalDeleteRecordDataOuterLight .MessageBoxTitleLight{
+		position:absolute;
+		font-size: 18px;
+		top:35%;
+		font-weight: bold;
+	}
+	
+	body .modalDeleteRecordDataOuterLight .MessageBoxTitleLight{
+		color:#181825;
+	}
+	
+	body .modalDeleteRecordDataOuterDark .MessageBoxTitleDark{
+		color:white;
+	}
+	
+	body .modalDeleteRecordDataOuterDark .MessageBoxDetailDark, 
+	body .modalDeleteRecordDataOuterLight .MessageBoxDetailLight{ 
+		position:absolute;
+		padding-left:10px;
+		padding-right:10px;
+		font-size: 16px;
+		top:52%;
+		text-align: center;
+	}
+	
+	body .modalDeleteRecordDataOuterLight .MessageBoxDetailLight{
+		color:#181825;
+	}
+	
+	body .modalDeleteRecordDataOuterDark .MessageBoxDetailDark{
+		color:white;
+	}
+
+	body .ButtonAlignment .DeleteRecordDarkEnabled, 
+	body .ButtonAlignment .DeleteRecordDarkDisabled, 
+	body .ButtonAlignment .DeleteRecordLightEnabled,
+	body .ButtonAlignment .DeleteRecordLightDisabled,
+	body .ButtonAlignment .CancelDeleteRecordDarkEnabled, 
+	body .ButtonAlignment .CancelDeleteRecordDarkDisabled, 
+	body .ButtonAlignment .CancelDeleteRecordLightEnabled,
+	body .ButtonAlignment .CancelDeleteRecordLightDisabled,
+	body .ButtonAlignment .DeleteConfirmationDark, 
+	body .ButtonAlignment .DeleteConfirmationLight{
+		position: absolute;
+		border: none;
+		padding: 3px 3px 3px 3px;
+		border-radius: 40px;	
+		width:35%;
+		font-size: 15px;
+	}
+	
+	body .ButtonAlignment .DeleteRecordDarkEnabled, 
+	body .ButtonAlignment .DeleteRecordDarkDisabled, 
+	body .ButtonAlignment .DeleteRecordLightEnabled,
+	body .ButtonAlignment .DeleteRecordLightDisabled{
+		left:10%
+	}
+	
+	body .ButtonAlignment .CancelDeleteRecordDarkEnabled, 
+	body .ButtonAlignment .CancelDeleteRecordDarkDisabled, 
+	body .ButtonAlignment .CancelDeleteRecordLightEnabled,
+	body .ButtonAlignment .CancelDeleteRecordLightDisabled{
+		left:54%;
+	}
+}
+
+
+
+

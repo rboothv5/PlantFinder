@@ -1,0 +1,162 @@
+
+.ServerOfflineContainer{
+	text-align: center;
+	margin:0;
+	padding:0;
+	width:100vw;
+	height:100vh;
+}
+
+@media screen and (max-width: 1920px) and (max-height: 1080px){
+
+	.lblServerOfflineHeader{
+		position:relative;
+		font-size: 80px;
+		top:5vh;
+		color:white;
+		margin: auto;
+	}
+
+	.iconExclamation{
+		position: relative;
+		background-color:#222831;
+		color: #6d7072;
+		top:25vh;
+		margin: auto;
+	}
+
+	.lblApplicationError{
+		position:relative;
+		font-size: 54px;
+		top:26vh;
+		color:white;
+		margin: auto;
+	}
+
+	.iconServer{
+		position: absolute;
+		background-color:#222831;
+		color: #6d7072;
+		left:40%;
+		top:60vh;
+		margin: auto;
+	}
+
+	.lblServerOffline{
+		position:absolute;
+		font-size: 28px;
+		top:62vh;
+		left:43%;
+		color:white;
+		margin: auto;
+	}
+
+	.iconDatabaseServerOffline{
+		position: absolute;
+		background-color:#222831;
+		color: #6d7072;
+		left:40%;
+		top:69vh;
+		margin: auto;
+	}
+
+	.iconDatabaseServerOnline{
+		position: absolute;
+		background-color:#222831;
+		color: #6d7072;
+		left:41%;
+		top:62vh;
+		margin: auto;
+	}
+
+	.lblDatabaseOfflineServerOffline, 
+	.lblDatabaseOfflineServerOnline{
+		position:absolute;
+		font-size: 28px;
+		top:70vh;
+		left:43%;
+		color:white;
+		margin: auto;
+	}
+
+	.lblDatabaseOfflineServerOnline{
+		top:63vh;
+	}
+}
+
+@media screen and (max-width: 1366px) and (max-height: 768px){
+	
+	body .lblServerOfflineHeader{
+		position:relative;
+		font-size: 80px;
+		top:5vh;
+		color:white;
+		  margin: auto;
+	}
+	
+	body .iconExclamation{
+		position: relative;
+		background-color:#222831;
+		color: #6d7072;
+		top:25vh;
+		margin: auto;
+	}
+	
+	body .lblApplicationError{
+		position:relative;
+		font-size: 54px;
+		top:26vh;
+		color:white;
+		  margin: auto;
+	}
+	
+	body .iconServer{
+		position: absolute;
+		background-color:#222831;
+		color: #6d7072;
+		left:36%;
+		top:68vh;
+		margin: auto;
+	}
+	
+	body .lblServerOffline{
+		position:absolute;
+		font-size: 28px;
+		top:70vh;
+		left:40%;
+		color:white;
+		  margin: auto;
+	}
+	
+	body .iconDatabaseServerOffline{
+		position: absolute;
+		background-color:#222831;
+		color: #6d7072;
+		left:36%;
+		top:78vh;
+		margin: auto;
+	}
+	
+	body .iconDatabaseServerOnline{
+		position: absolute;
+		background-color:#222831;
+		color: #6d7072;
+		left:41%;
+		top:62vh;
+		margin: auto;
+	}
+	
+	body .lblDatabaseOfflineServerOffline, 
+	body .lblDatabaseOfflineServerOnline{
+		position:absolute;
+		font-size: 28px;
+		top:79vh;
+		left:40%;
+		color:white;
+		margin: auto;
+	}
+	
+	body .lblDatabaseOfflineServerOnline{
+		top:67vh;
+	}
+}

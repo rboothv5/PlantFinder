@@ -1,0 +1,505 @@
+.RecentSearchesImagesContainerDark, 
+.RecentSearchesImagesContainerLight{
+	position:absolute;
+	top:2vh;
+	right:1%;
+	height:96vh;
+	width:21%;
+	text-align: center;
+	border-radius: 20px;
+}
+
+.RecentSearchesImagesContainerLight{
+	background-color:#91dcff;
+}
+
+.RecentSearchesImagesContainerDark{
+	background-color:#393E46;
+}
+
+.RecentSearches{
+	text-align: center;
+	position:relative;
+	top:10%;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	width:92%;
+}
+
+@media screen and (max-width: 1920px) and (max-height: 1080px){
+	  
+	.iconHistoryDark i, 
+	.iconHistoryLight i{
+		position:absolute;
+		top:2%;
+		left:12%;
+	}
+	
+	.iconHistoryLight i {
+		color: 	rgb(15, 19, 233);
+	}
+
+	.iconHistoryDark i{
+		color: 	#6EB6FF;
+	}
+
+	.RecentSearchesHeadingDark, 
+	.RecentSearchesHeadingLight{
+		position: absolute;
+		top:-1%;
+		font-size: 32px;
+		left:27%;
+	}
+
+	.RecentSearchesHeadingLight{
+		color:#181825;
+	}
+
+	.RecentSearchesHeadingDark{
+		color: 	white;
+	}
+	
+	.hdrUnderlineDark, 
+	.hdrUnderlineLight{
+		position:relative;
+		margin: auto;
+		width: 85%;
+		height:0.5%;
+		top:8%;
+	}
+
+	.hdrUnderlineLight{
+		background-color: #1b6eeb;
+	}
+
+	.hdrUnderlineDark{
+		background-color:rgb(93, 101, 107);
+	}
+
+	.iconRecentSearchesError{
+		position: relative;
+		color:rgb(218, 2, 2);
+		top:40vh;
+	}
+
+	.lblRecentSearchesErrorDark, 
+	.lblRecentSearchesErrorLight{
+		position: relative;
+		font-size: 20px;
+		top:40vh;
+		
+	}
+
+	.lblRecentSearchesErrorLight{
+		color:#181825;
+	}
+	
+	.lblRecentSearchesErrorDark{
+		color:white;
+	}
+
+	.RecentSearchesListItemPlaceHolderDark, 
+	.RecentSearchesListItemPlaceHolderLight,
+	.RecentSearchesListItemDark, 
+	.RecentSearchesListItemLight{
+		position:relative;
+		height:22vh;
+		margin-top: 15%;
+		border:none;
+		border-radius:15px;
+		list-style-type: none;
+		padding-top:1px;
+	}
+
+	.RecentSearchesListItemPlaceHolderDark, 
+	.RecentSearchesListItemPlaceHolderLight{	
+		top:-2.5vh;
+	}
+
+	.RecentSearchesListItemDark, 
+	.RecentSearchesListItemLight{	
+		top:-85.8vh;
+	}
+
+	.RecentSearchesListItemPlaceHolderDark, 
+	.RecentSearchesListItemDark{
+		background-color: #5d6b72;
+		box-shadow: 4px 4px 6px rgb(34,40,49)
+	}
+
+	.RecentSearchesListItemPlaceHolderLight, 
+	.RecentSearchesListItemLight{
+		background-color: #93bcfa;
+		box-shadow: 4px 4px 6px rgb(25, 138, 182);
+	}
+
+	.RecentSearchesImage{
+		position: absolute;
+		padding: 10px;
+		left:0vw;
+		top:0vh;
+		width:60%;
+		height:100%;
+		border-radius: 25px;
+	}
+		
+	.lblRecentSearchesPlantDark, 
+	.lblRecentSearchesPlantLight{
+		position:relative;
+		font-size: 16px;
+		left:25.5%;
+		top:1%;
+		font-weight:bold;
+	}
+
+	.lblRecentSearchesPlantLight{
+		color:#181825;
+	}
+
+	.lblRecentSearchesPlantDark{
+		color:white;
+	}
+
+	.RecentSearchesPlantDark, 
+	.RecentSearchesPlantLight{
+		position:relative;
+		font-size: 16px;
+		top:-6%;
+		left:61%;
+		width:35%;
+		text-align: left;
+		padding:3px;
+	}
+
+	.RecentSearchesPlantLight{
+		background-color: #91dcff;
+		color:#181825;
+	}
+
+	.RecentSearchesPlantDark{
+		background-color: #7e8183;
+		color:white;
+	}
+
+	.lblRecentSearchesScoreDark, 
+	.lblRecentSearchesScoreLight{
+		position:relative;
+		font-size: 16px;
+		left:16.5%;
+		top:-5%;
+		font-weight:bold;
+	}
+
+	.lblRecentSearchesScoreLight{
+		color:#181825;
+	}
+
+	.lblRecentSearchesScoreDark{
+		color:white;
+	}
+
+	.RecentSearchesScoreDark, 
+	.RecentSearchesScoreLight{
+		position:relative;
+		font-size: 16px;
+		top:-12%;
+		left:61%;
+		width:35%;
+		text-align: left;
+		padding:3px;
+	}	
+
+	.RecentSearchesScoreLight{
+		background-color:#91dcff;
+		color:#181825;
+	}	
+
+	.RecentSearchesScoreDark{
+		background-color: #7e8183;
+		color:white;
+	}
+
+	.lblRecentSearchesDateDark, 
+	.lblRecentSearchesDateLight{
+		position:relative;
+		font-size: 16px;
+		left:22%;
+		top:-11%;
+		font-weight:bold;
+	}
+
+	.lblRecentSearchesDateLight{
+		color:#181825;
+	}
+
+	.lblRecentSearchesDateDark{
+		color:white;
+	}
+
+	.RecentSearchesDateDark, 
+	.RecentSearchesDateLight{
+		position:relative;
+		font-size: 16px;
+		top:-18%;
+		left:61%;
+		width:35%;
+		text-align: left;
+		padding:3px;
+	}
+
+	.RecentSearchesDateLight{
+		background-color: #91dcff;
+		color:#181825;
+	}
+
+	.RecentSearchesDateDark{
+		background-color: #7e8183;
+		color:white;
+	}
+
+	.lblNoSearchDataDark, 
+	.lblNoSearchDataLight{
+		position:relative;
+		font-size: 16px;
+		top:42%;
+		font-weight: bold;
+		margin:auto;
+		width:35%;
+	}
+
+	.lblNoSearchDataLight{
+		color:#181825;
+	}
+
+	.lblNoSearchDataDark{
+		color:white;
+	}
+}
+
+@media screen and (max-width: 1366px) and (max-height: 768px){
+	
+	body .iconHistoryDark i, 
+	body .iconHistoryLight i{
+		position:absolute;
+		top:1.5%;
+		left:9%;
+	}
+	
+	body .RecentSearchesHeadingDark, 
+	body .RecentSearchesHeadingLight{
+		position: absolute;
+		top:-0.5%;
+		font-size: 24px;
+		left:28%;
+	}
+
+	body .RecentSearchesHeadingLight{
+		color:#181825;
+	}
+
+	body .RecentSearchesHeadingDark{
+		color: 	white;
+	}
+
+	body .hdrUnderlineDark, 
+	body .hdrUnderlineLight{
+		position:relative;
+		margin: auto;
+		width: 85%;
+		height:0.5%;
+		top:9%;
+	}
+	
+	body .iconRecentSearchesError{
+		position: relative;
+		color:rgb(218, 2, 2);
+		top:40vh;
+	}
+
+	body .lblRecentSearchesErrorDark, 
+	body .lblRecentSearchesErrorLight{
+		position: relative;
+		font-size: 16px;
+		top:40vh;
+		
+	}
+
+	.lblRecentSearchesErrorLight{
+		color:#181825;
+	}
+	
+	body .lblRecentSearchesErrorDark{
+		color:white;
+	}
+
+	body .RecentSearchesListItemPlaceHolderDark, 
+	body .RecentSearchesListItemPlaceHolderLight,
+	body .RecentSearchesListItemDark, 
+	body .RecentSearchesListItemLight{
+		position:relative;
+		height:22vh;
+		margin-top: 15%;
+		border:none;
+		border-radius:15px;
+		list-style-type: none;
+	}
+
+	body .RecentSearchesListItemPlaceHolderDark, 
+	body .RecentSearchesListItemPlaceHolderLight{	
+		top:-1vh;
+	}
+
+	body .RecentSearchesListItemDark, 
+	body .RecentSearchesListItemLight{	
+		top:-82.5vh;
+	}
+
+	body .RecentSearchesListItemPlaceHolderDark, 
+	body .RecentSearchesListItemDark{
+		background-color: #5d6b72;
+	}
+
+	body .RecentSearchesListItemPlaceHolderLight, 
+	body .RecentSearchesListItemLight{
+		background-color: #93bcfa;
+	}
+
+	body .RecentSearchesImage{
+		position: absolute;
+		padding: 10px;
+		left:0vw;
+		top:0vh;
+		width:60%;
+		height:100%;
+		border-radius: 25px;
+	}
+		
+	body .lblRecentSearchesPlantDark, 
+	body .lblRecentSearchesPlantLight{
+		position:relative;
+		font-size: 14px;
+		left:27%;
+		top:-1%;
+		font-weight: bold;
+	}
+
+	body .lblRecentSearchesPlantLight{
+		color:#181825;
+	}
+
+	body .lblRecentSearchesPlantDark{
+		color:white;
+	}
+
+	body .RecentSearchesPlantDark, 
+	body .RecentSearchesPlantLight{
+		position:relative;
+		font-size: 14px;
+		top:-9%;
+		left:60%;
+		width:36%;
+		padding-left:2px;
+		text-align: left;
+	}
+
+	body .RecentSearchesPlantLight{
+		background-color:#91dcff;
+	}
+
+	body .RecentSearchesPlantDark{
+		background-color: #7e8183;
+	}
+
+	body .lblRecentSearchesScoreDark, 
+	body .lblRecentSearchesScoreLight{
+		position:relative;
+		font-size: 14px;
+		left:17%;
+		top:-10%;
+		font-weight: bold;
+	}
+
+	body .lblRecentSearchesScoreLight{
+		color:#181825;
+	}
+
+	body .lblRecentSearchesScoreDark{
+		color:white;
+	}
+
+	body .RecentSearchesScoreDark, 
+	body .RecentSearchesScoreLight{
+		position:relative;
+		font-size: 14px;
+		top:-18%;
+		left:60%;
+		width:36%;
+		text-align: left;
+		padding:1px;
+	}	
+	
+	body .RecentSearchesScoreLight{
+		background-color:#91dcff;
+	}	
+
+	body .RecentSearchesScoreDark{
+		background-color: #7e8183;
+	}
+
+	body .lblRecentSearchesDateDark, 
+	body .lblRecentSearchesDateLight{
+		position:relative;
+		font-size: 14px;
+		left:24%;
+		top:-17%;
+		font-weight: bold;
+	}
+
+	body .lblRecentSearchesDateLight{
+		color:#181825;
+	}
+
+	body .lblRecentSearchesDateDark{
+		color:white;
+	}
+
+	body .RecentSearchesDateDark,
+	body .RecentSearchesDateLight{
+		position:relative;
+		font-size: 14px;
+		top:-25%;
+		left:60%;
+		width:36%;
+		text-align: left;
+		padding:1px;
+	}
+
+	body .RecentSearchesDateLight{
+		background-color: #91dcff;
+		color:#181825;
+	}
+
+	body .RecentSearchesDateDark{
+		background-color: #7e8183;
+		color:white;
+	}
+
+	body .lblNoSearchDataDark, 
+	body .lblNoSearchDataDark{
+		position:relative;
+		font-size: 14px;
+		top:42%;
+		font-weight: bold;
+		margin:auto;
+		width:45%;
+	}
+
+	body .lblNoSearchDataDark{
+		color:#181825;
+	}
+
+	body .lblNoSearchDataDark{
+		color:white;
+	}
+}

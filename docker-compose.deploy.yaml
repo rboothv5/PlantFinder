@@ -1,0 +1,82 @@
+version: "3.9"
+
+services:
+  postgres:
+    container_name: postgres
+    image: postgres:latest
+    restart: always
+    expose:
+      - 5432
+    ports:
+        - "5432:5432"
+    volumes:
+        - ./db/data:/var/lib/pgsql/data/
+        - ./db/init/init-postgres.sql:/docker-entrypoint-initdb.d/init-postgres.sql
+    environment: 
+      - "POSTGRES_HOST_AUTH_METHOD=trust"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      start_period: 5s
+      interval: 1s
+      timeout: 10s
+      retries: 10
+  
+  frontend:
+    container_name: frontend
+    image: frontend:latest
+    restart: always
+    build:
+      dockerfile: dockerfile
+      context: ./frontend
+    command: npm start
+    ports:
+      - 3000:3000
+       
+  backend:
+    container_name: backend
+    image: backend:latest
+    restart: always
+    build:
+      context: ./backend
+    command: python manage.py runsslserver --certificate /etc/letsencrypt/live/www.plantsearcher.net/fullchain.pem --key /etc/letsencrypt/live/www.plantsearcher.net/privkey.pem 0.0.0.0:8000
+    ports:
+      - "8000:8000"
+    depends_on:
+      - postgres
+    volumes:
+      - certbot-web:/var/www
+      - certbot-certs:/etc/letsencrypt/
+
+  proxy:
+    container_name: proxy
+    image: proxy:latest
+    restart: always
+    build:
+      context: ./Docker/proxy
+    depends_on:
+      - backend
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - certbot-web:/var/www
+      - proxy-dhparams:/vol/proxy
+      - certbot-certs:/etc/letsencrypt
+    
+  certbot:
+    container_name: certbot
+    image: certbot:latest
+    restart: always
+    build:
+      context: ./Docker/certbot
+    command: echo "Skipping..."
+    volumes:
+      - certbot-web:/var/www
+      - certbot-certs:/etc/letsencrypt/
+    depends_on:
+      - proxy
+
+volumes:
+  certbot-web:
+  proxy-dhparams:
+  certbot-certs:

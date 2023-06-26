@@ -1,0 +1,233 @@
+.ModalInvalidImage-Backdrop{
+	position:absolute;
+	display: flex;
+	top:0%;
+	left:0;
+	width:100%;
+	height:100%;
+	background: rgba(57, 62, 70, 0.85);
+	z-index: 7;
+}
+
+.ModalInvalidImageOuterDark, 
+.ModalInvalidImageOuterLight{
+	top:2%;
+	left:-2%;
+    display: flex;
+  	justify-content: center;
+  	align-items: center;
+	position: relative;
+	height:40vh;
+	width:15vw;
+	margin: auto;
+	border-radius: 15px;
+}
+
+.ModalInvalidImageOuterLight{
+	background-color:#91dcff;
+}
+
+.ModalInvalidImageOuterDark{
+	background-color: #67807b;
+}
+
+.ModalInvalidImageData{
+	position: relative;
+	height: 80%;
+    top:4%;
+    width:90%;
+	margin: auto;
+	overflow-y:auto
+}
+
+@media screen and (max-width: 1920px) and (max-height: 1080px){
+
+	.ModalInvalidImageOuterDark .MessageBoxTitleDark, 
+	.ModalInvalidImageOuterLight .MessageBoxTitleLight{
+	   position:absolute;
+	   font-size: 20px;
+	   top:35%;
+	   font-weight: bold;
+   	}
+
+   .ModalInvalidImageOuterLight .MessageBoxTitleLight{
+	   color:#181825;
+   	}
+
+   .ModalInvalidImageOuterDark .MessageBoxTitleDark{
+	   color:white;
+   	}
+
+   .ModalInvalidImageOuterDark .MessageBoxDetail1Dark, 
+   .ModalInvalidImageOuterLight .MessageBoxDetail1Light{
+   
+	   position:absolute;
+	   padding-left:10px;
+	   padding-right:10px;
+	   font-size: 16px;
+	   top:50%;
+	   text-align: center;
+   	}
+   
+   .ModalInvalidImageOuterLight .MessageBoxDetail1Light{
+	   color:rgb(47, 49, 56);
+   	}
+   
+   .ModalInvalidImageOuterDark .MessageBoxDetail1Dark{
+	   color:white;
+    }
+
+   .ModalInvalidImageOuterDark .MessageBoxDetail2Dark, 
+   .ModalInvalidImageOuterLight .MessageBoxDetail2Light{
+   	   position:absolute;
+	   padding-left:10px;
+	   padding-right:10px;
+	   font-size: 16px;
+	   top:64%;
+	   text-align: center;
+    }
+   
+   .ModalInvalidImageOuterLight .MessageBoxDetail2Light{
+	   color:rgb(47, 49, 56);
+    }
+   
+   .ModalInvalidImageOuterDark .MessageBoxDetail2Dark{
+	   color:white;
+    }
+
+	.ModalInvalidImageOuterDark .iconExclamationInvalidImage,
+    .ModalInvalidImageOuterLight .iconExclamationInvalidImage{
+	   position:absolute;
+	   top:8%;
+	   color: 	rgb(211, 0, 0)
+   	}
+
+	.CloseModalInvalidImageDark, 
+    .CloseModalInvalidImageLight{
+	   position:relative;
+	   cursor:pointer;
+	   top:38%;
+	   border: none;
+	   padding: 5px 20px 5px;
+	   border-radius: 40px;	
+	   height:9%;
+	   width:42%;
+	   font-size: 18px;
+	}
+
+   .CloseModalInvalidImageDark{
+	   background-color: #5795f1;
+	   color: white;
+   	}
+   
+   .CloseModalInvalidImageLight{
+	   background-color: #2cc583;
+	   color: white;
+   	}
+
+   .CloseModalInvalidImageDark:hover{
+	   background-color: #1b6eeb;
+   	}
+
+   .CloseModalInvalidImageLight:hover{
+	   background-color: #2e854c;
+   	}
+}
+
+@media screen and (max-width: 1366px) and (max-height: 768px){
+
+	body .ModalInvalidImageOuterDark .MessageBoxTitleDark, 
+	body .ModalInvalidImageOuterDark .MessageBoxTitleDark{
+		position:absolute;
+		font-size: 18px;
+		top:37%;
+		color:white;
+		font-weight: bold;
+	}
+	
+	body .ModalInvalidImageOuterLight .MessageBoxTitleLight{
+		color:rgb(47, 49, 56);
+	}
+	
+	body .ModalInvalidImageOuterDark .MessageBoxTitleDark{
+		color:white;
+	}
+
+	body .modalInvalidImageOuterDark .MessageBoxDetail1Dark, 
+	body .modalInvalidImageOuterLight .MessageBoxDetail1Light{
+	
+		position:absolute;
+		padding-left:10px;
+		padding-right:10px;
+		font-size: 16px;
+		top:50%;
+		text-align: center;
+	}
+	
+	body .ModalInvalidImageOuterLight .MessageBoxDetail1Light{
+		color:rgb(47, 49, 56);
+	}
+	
+	body .ModalInvalidImageOuterDark .MessageBoxDetail1Dark{
+		color:white;
+	}
+
+	body .ModalInvalidImageOuterDark .MessageBoxDetail2Dark, 
+	body .ModalInvalidImageOuterLight .MessageBoxDetail2Light{
+	
+		position:absolute;
+		padding-left:10px;
+		padding-right:10px;
+		font-size: 16px;
+		top:64%;
+		text-align: center;
+	}
+	
+	body .modalInvalidImageOuterLight .MessageBoxDetail2Light{
+		color:rgb(47, 49, 56);
+	}
+	
+	body .ModalInvalidImageOuterDark .MessageBoxDetail2Dark{
+		color:white;
+	}
+
+	body .CloseModalInvalidImageDark,
+	body .CloseModalInvalidImageLight{
+
+		position:relative;
+		cursor:pointer;
+		top:38%;
+		border: none;
+		padding: 5px 20px 5px;
+		border-radius: 40px;	
+		text-decoration: none;
+		height:9%;
+		width:42%;
+		font-size: 18px;
+	}
+	
+	body .CloseModalInvalidImageDark{
+		background-color: #5795f1;
+		color: white;
+	}
+	
+	body .CloseModalInvalidImageLight{
+		background-color: #2cc583;
+		color: white;
+	}
+
+	body .CloseModalInvalidImageDark:hover{
+		background-color: #1b6eeb;
+	}
+
+	body .CloseModalInvalidImageLight:hover{
+		background-color: #2e854c;
+	}
+				
+	body .ModalInvalidImageOuterDark .iconExclamation,
+	body .ModalInvalidImageOuterLight .iconExclamation{
+		position:absolute;
+		top:8%;
+		color: 	rgb(211, 0, 0)
+	}
+}
