@@ -47,6 +47,8 @@
 	top:3.5%;
 	width:90%;
 	height:82%;
+	border-radius: 15px;
+    overflow: hidden
 }
 
 .ModalIdentifiedImageLocationContainerLight {
