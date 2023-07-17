@@ -140,24 +140,23 @@ export default function App() {
 			default:
 			break;	
 		}
-		
-		if(file.type==='image/jpeg' || !file.size>0){
-			processFile(file)
-		}
-		
+				
 		if(file.type!=='image/jpeg'){
 			dispatch(ShowModalInvalidImage(true))
 			dispatch(SendMessageBoxTitle('INVALID IMAGE TYPE'))
-			dispatch(SendMessageInvalidImage1('Valid image type is: image/jpeg'))
-			dispatch(SendMessageInvalidImage2(''))
+			dispatch(SendMessageInvalidImage1('Valid image type is:'))
+			dispatch(SendMessageInvalidImage2('image/jpeg'))
 		}
 
-		if(file.size>MaxImageSize){
+		else if(file.size>MaxImageSize){
 			dispatch(ShowModalInvalidImage(true))
 			dispatch(SendMessageBoxTitle('INVALID FILE SIZE'))
 			dispatch(SendMessageInvalidImage1('File size: ' + file.size/MegaByte + 'MB'))
 			dispatch(SendMessageInvalidImage2('Maximum file size < 4MB'))
 		}
+        else{
+            processFile(file)
+        }
 	}
 
 	const changeHandler = function(e){
