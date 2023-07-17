@@ -152,7 +152,7 @@ export default function App() {
 			dispatch(ShowModalInvalidImage(true))
 			dispatch(SendMessageBoxTitle('INVALID FILE SIZE'))
 			dispatch(SendMessageInvalidImage1('File size: ' + file.size/MegaByte + 'MB'))
-			dispatch(SendMessageInvalidImage2('Maximum file size < 4MB'))
+			dispatch(SendMessageInvalidImage2('Maximum file size < 5MB'))
 		}
         else{
             processFile(file)
