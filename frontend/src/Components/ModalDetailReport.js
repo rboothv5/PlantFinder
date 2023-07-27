@@ -61,7 +61,7 @@ export default function ModalDetailReport(){
 						<table className="DetailReport">
 							<thead>
 								<tr className={DarkMode ? "DetailReportHeaderDark" : "DetailReportHeaderLight"}>
-									<th className={DarkMode ? "DetailReportTableHeaderPlantDark" : "DetailReportTableHeaderPlantLight"}>Plant</th> 
+									<th className={DarkMode ? "DetailReportTableHeaderPlantDark" : "DetailReportTableHeaderPlantLight"}>Plant name</th> 
 									<th className={DarkMode ? "DetailReportTableHeaderDescriptionDark" : "DetailReportTableHeaderDescriptionLight"}>Description</th>
 									<th className={DarkMode ? "DetailReportTableHeaderCompareDark" : "DetailReportTableHeaderCompareLight"}>Compared to</th>
 									<th className={DarkMode ? "DetailReportTableHeaderScoreDark" : "DetailReportTableHeaderScoreLight"}>Score (%)</th>

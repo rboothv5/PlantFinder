@@ -134,7 +134,7 @@ export default function ViewSummary({Records}) {
 							<th className={DarkMode ? "HeaderFirstNameDark" : "HeaderFirstNameLight"}>Firstname</th>
 							<th className={DarkMode ? "HeaderSurnameDark" : "HeaderSurnameLight"}>Surname</th>
 							<th className={DarkMode ? "HeaderDateAddedDark" : "HeaderDateAddedLight"}>Date</th>
-							<th className={DarkMode ? "HeaderIdentifiedPlantDark" : "HeaderIdentifiedPlantLight"}>Plant</th>
+							<th className={DarkMode ? "HeaderIdentifiedPlantDark" : "HeaderIdentifiedPlantLight"}>Plant name</th>
 							<th className={DarkMode ? "HeaderScoreDark" : "HeaderScoreLight"}>Score (%)</th>
 							<th className={DarkMode ? "HeaderCommentsDark" : "HeaderCommentsLight"}>Comments</th>
 							<th colSpan="2" className={DarkMode ? "HeaderActionsDark" : "HeaderActionsLight"}>Actions</th>
