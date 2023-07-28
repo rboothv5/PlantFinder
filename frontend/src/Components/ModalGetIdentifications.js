@@ -54,7 +54,6 @@ export default function ModalGetPredictions() {
 			
 		dispatch(ShowModalSaveRecord(true))
 		dispatch(SendOperationType('Save'))
-		dispatch(UpdateOperationRunning(true))
 		dispatch(SendMessageBoxTitle('SAVE RECORD'))
 		dispatch(SendMessageRecordSave('')) 
 		dispatch(SendMessageRecordSave('Saving record...'))
@@ -64,7 +63,8 @@ export default function ModalGetPredictions() {
 			dispatch(SendMessageRecordSave('Enter Required Fields'))
 		}
 		else{
-			SaveIdentifications(ImgBase64, Identifications, FileName, FormatDateCreated, AddFormData, Latitude, Longitude).then(function(data){
+			dispatch(UpdateOperationRunning(true))
+            SaveIdentifications(ImgBase64, Identifications, FileName, FormatDateCreated, AddFormData, Latitude, Longitude).then(function(data){
 				switch(data['MessageCode']){
 			 		case 0: 
 						dispatch(SendMessageRecordSaveStatus('Success'))	
