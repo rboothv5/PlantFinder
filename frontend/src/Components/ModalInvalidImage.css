@@ -9,20 +9,6 @@
 	z-index: 7;
 }
 
-.ModalInvalidImageOuterDark, 
-.ModalInvalidImageOuterLight{
-	top:2%;
-	left:-2%;
-    display: flex;
-  	justify-content: center;
-  	align-items: center;
-	position: relative;
-	height:40vh;
-	width:15vw;
-	margin: auto;
-	border-radius: 15px;
-}
-
 .ModalInvalidImageOuterLight{
 	background-color:#91dcff;
 }
@@ -40,9 +26,134 @@
 	overflow-y:auto
 }
 
+.ModalInvalidImageOuterLight .MessageBoxTitleLight{
+    color:#181825;
+    }
+
+.ModalInvalidImageOuterDark .MessageBoxTitleDark{
+    color:white;
+}
+
+.ModalInvalidImageOuterLight .MessageBoxDetail1Light{
+    color:rgb(47, 49, 56);
+}
+    
+.ModalInvalidImageOuterDark .MessageBoxDetail1Dark{
+    color:white;
+}
+
+.ModalInvalidImageOuterLight .MessageBoxDetail2Light{
+    color:rgb(47, 49, 56);
+}
+    
+.ModalInvalidImageOuterDark .MessageBoxDetail2Dark{
+    color:white;
+}
+
+.CloseModalInvalidImageDark{
+    background-color: #5795f1;
+    color: white;
+}
+    
+.CloseModalInvalidImageLight{
+    background-color: #2cc583;
+    color: white;
+}
+ 
+.CloseModalInvalidImageDark:hover{
+    background-color: #1b6eeb;
+}
+ 
+.CloseModalInvalidImageLight:hover{
+    background-color: #2e854c;
+}
+
+.ModalInvalidImageOuterDark .iconExclamationInvalidImage,
+.ModalInvalidImageOuterLight .iconExclamationInvalidImage{
+   color: 	rgb(211, 0, 0)
+}
+
+@media screen and (max-width: 2560px) and (max-height: 1600px){
+    
+    .ModalInvalidImageOuterDark, 
+    .ModalInvalidImageOuterLight{
+        top:2%;
+        left:-2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        height:30vh;
+        width:15vw;
+        margin: auto;
+        border-radius: 15px;
+    }
+            
+    .ModalInvalidImageOuterDark .MessageBoxTitleDark, 
+    .ModalInvalidImageOuterLight .MessageBoxTitleLight{
+        position:absolute;
+        font-size: 28px;
+        top:32%;
+        font-weight: bold;
+    }
+     
+    .ModalInvalidImageOuterDark .MessageBoxDetail1Dark, 
+    .ModalInvalidImageOuterLight .MessageBoxDetail1Light{
+        position:absolute;
+        padding-left:10px;
+        padding-right:10px;
+        font-size: 24px;
+        top:50%;
+        text-align: center;
+    }
+     
+    .ModalInvalidImageOuterDark .MessageBoxDetail2Dark, 
+    .ModalInvalidImageOuterLight .MessageBoxDetail2Light{
+        position:absolute;
+        padding-left:10px;
+        padding-right:10px;
+        font-size: 24px;
+        top:64%;
+        text-align: center;
+    }
+        
+    .ModalInvalidImageOuterDark .iconExclamationInvalidImage,
+    .ModalInvalidImageOuterLight .iconExclamationInvalidImage{
+        position:absolute;
+        top:8%;
+    }
+        
+    .CloseModalInvalidImageDark, 
+    .CloseModalInvalidImageLight{
+       position:relative;
+       cursor:pointer;
+       top:38%;
+       border: none;
+       padding: 5px 20px 5px;
+       border-radius: 40px;	
+       height:9%;
+       width:42%;
+       font-size: 18px;
+    }
+}    
+
 @media screen and (max-width: 1920px) and (max-height: 1080px){
 
-	.ModalInvalidImageOuterDark .MessageBoxTitleDark, 
+	.ModalInvalidImageOuterDark, 
+    .ModalInvalidImageOuterLight{
+        top:2%;
+        left:-2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        height:40vh;
+        width:15vw;
+        margin: auto;
+        border-radius: 15px;
+    }
+    
+    .ModalInvalidImageOuterDark .MessageBoxTitleDark, 
 	.ModalInvalidImageOuterLight .MessageBoxTitleLight{
 	   position:absolute;
 	   font-size: 20px;
@@ -50,33 +161,16 @@
 	   font-weight: bold;
    	}
 
-   .ModalInvalidImageOuterLight .MessageBoxTitleLight{
-	   color:#181825;
-   	}
-
-   .ModalInvalidImageOuterDark .MessageBoxTitleDark{
-	   color:white;
-   	}
-
    .ModalInvalidImageOuterDark .MessageBoxDetail1Dark, 
    .ModalInvalidImageOuterLight .MessageBoxDetail1Light{
-   
-	   position:absolute;
-	   padding-left:10px;
-	   padding-right:10px;
-	   font-size: 16px;
-	   top:50%;
-	   text-align: center;
+        position:absolute;
+	    padding-left:10px;
+	    padding-right:10px;
+	    font-size: 16px;
+	    top:50%;
+	    text-align: center;
    	}
    
-   .ModalInvalidImageOuterLight .MessageBoxDetail1Light{
-	   color:rgb(47, 49, 56);
-   	}
-   
-   .ModalInvalidImageOuterDark .MessageBoxDetail1Dark{
-	   color:white;
-    }
-
    .ModalInvalidImageOuterDark .MessageBoxDetail2Dark, 
    .ModalInvalidImageOuterLight .MessageBoxDetail2Light{
    	   position:absolute;
@@ -87,20 +181,11 @@
 	   text-align: center;
     }
    
-   .ModalInvalidImageOuterLight .MessageBoxDetail2Light{
-	   color:rgb(47, 49, 56);
-    }
-   
-   .ModalInvalidImageOuterDark .MessageBoxDetail2Dark{
-	   color:white;
-    }
-
 	.ModalInvalidImageOuterDark .iconExclamationInvalidImage,
     .ModalInvalidImageOuterLight .iconExclamationInvalidImage{
 	   position:absolute;
 	   top:8%;
-	   color: 	rgb(211, 0, 0)
-   	}
+    }
 
 	.CloseModalInvalidImageDark, 
     .CloseModalInvalidImageLight{
@@ -114,30 +199,26 @@
 	   width:42%;
 	   font-size: 18px;
 	}
-
-   .CloseModalInvalidImageDark{
-	   background-color: #5795f1;
-	   color: white;
-   	}
-   
-   .CloseModalInvalidImageLight{
-	   background-color: #2cc583;
-	   color: white;
-   	}
-
-   .CloseModalInvalidImageDark:hover{
-	   background-color: #1b6eeb;
-   	}
-
-   .CloseModalInvalidImageLight:hover{
-	   background-color: #2e854c;
-   	}
 }
 
 @media screen and (max-width: 1366px) and (max-height: 768px){
 
-	body .ModalInvalidImageOuterDark .MessageBoxTitleDark, 
-	body .ModalInvalidImageOuterDark .MessageBoxTitleDark{
+    .ModalInvalidImageOuterDark, 
+    .ModalInvalidImageOuterLight{
+        top:2%;
+        left:-2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        height:40vh;
+        width:15vw;
+        margin: auto;
+        border-radius: 15px;
+    }
+    
+    .ModalInvalidImageOuterDark .MessageBoxTitleDark, 
+	.ModalInvalidImageOuterDark .MessageBoxTitleDark{
 		position:absolute;
 		font-size: 18px;
 		top:37%;
@@ -145,18 +226,17 @@
 		font-weight: bold;
 	}
 	
-	body .ModalInvalidImageOuterLight .MessageBoxTitleLight{
+	.ModalInvalidImageOuterLight .MessageBoxTitleLight{
 		color:rgb(47, 49, 56);
 	}
 	
-	body .ModalInvalidImageOuterDark .MessageBoxTitleDark{
+	.ModalInvalidImageOuterDark .MessageBoxTitleDark{
 		color:white;
 	}
 
-	body .modalInvalidImageOuterDark .MessageBoxDetail1Dark, 
-	body .modalInvalidImageOuterLight .MessageBoxDetail1Light{
-	
-		position:absolute;
+	.modalInvalidImageOuterDark .MessageBoxDetail1Dark, 
+	.modalInvalidImageOuterLight .MessageBoxDetail1Light{
+	    position:absolute;
 		padding-left:10px;
 		padding-right:10px;
 		font-size: 16px;
@@ -164,18 +244,17 @@
 		text-align: center;
 	}
 	
-	body .ModalInvalidImageOuterLight .MessageBoxDetail1Light{
+	.ModalInvalidImageOuterLight .MessageBoxDetail1Light{
 		color:rgb(47, 49, 56);
 	}
 	
-	body .ModalInvalidImageOuterDark .MessageBoxDetail1Dark{
+	.ModalInvalidImageOuterDark .MessageBoxDetail1Dark{
 		color:white;
 	}
 
-	body .ModalInvalidImageOuterDark .MessageBoxDetail2Dark, 
-	body .ModalInvalidImageOuterLight .MessageBoxDetail2Light{
-	
-		position:absolute;
+	.ModalInvalidImageOuterDark .MessageBoxDetail2Dark, 
+	.ModalInvalidImageOuterLight .MessageBoxDetail2Light{
+	    position:absolute;
 		padding-left:10px;
 		padding-right:10px;
 		font-size: 16px;
@@ -183,18 +262,17 @@
 		text-align: center;
 	}
 	
-	body .modalInvalidImageOuterLight .MessageBoxDetail2Light{
+	.modalInvalidImageOuterLight .MessageBoxDetail2Light{
 		color:rgb(47, 49, 56);
 	}
 	
-	body .ModalInvalidImageOuterDark .MessageBoxDetail2Dark{
+	.ModalInvalidImageOuterDark .MessageBoxDetail2Dark{
 		color:white;
 	}
 
-	body .CloseModalInvalidImageDark,
-	body .CloseModalInvalidImageLight{
-
-		position:relative;
+	.CloseModalInvalidImageDark,
+	.CloseModalInvalidImageLight{
+    	position:relative;
 		cursor:pointer;
 		top:38%;
 		border: none;
@@ -206,26 +284,26 @@
 		font-size: 18px;
 	}
 	
-	body .CloseModalInvalidImageDark{
+	.CloseModalInvalidImageDark{
 		background-color: #5795f1;
 		color: white;
 	}
 	
-	body .CloseModalInvalidImageLight{
+	.CloseModalInvalidImageLight{
 		background-color: #2cc583;
 		color: white;
 	}
 
-	body .CloseModalInvalidImageDark:hover{
+	.CloseModalInvalidImageDark:hover{
 		background-color: #1b6eeb;
 	}
 
-	body .CloseModalInvalidImageLight:hover{
+	.CloseModalInvalidImageLight:hover{
 		background-color: #2e854c;
 	}
 				
-	body .ModalInvalidImageOuterDark .iconExclamation,
-	body .ModalInvalidImageOuterLight .iconExclamation{
+	.ModalInvalidImageOuterDark .iconExclamation,
+	.ModalInvalidImageOuterLight .iconExclamation{
 		position:absolute;
 		top:8%;
 		color: 	rgb(211, 0, 0)

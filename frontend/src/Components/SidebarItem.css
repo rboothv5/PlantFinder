@@ -59,6 +59,47 @@
 	width:100%;
 }
 
+.SidebarContentDark ul li{
+    color:white;
+}
+
+.SidebarContentLight ul li{
+    color:#181825;
+}
+
+.liReportsDark:hover{
+    background-color: #5795f1;
+}
+
+.liReportsLight:hover{
+    background-color: #2da9be;
+}
+
+@media screen and (max-width: 2560px) and (max-height: 1600px){
+
+	.SidebarContentDark ul li,
+	.SidebarContentLight ul li{
+		list-style-type: none;
+		font-size:22px;
+		width:75%;
+	}
+		
+	.SidebarTitleDark, 
+	.SidebarTitleLight{
+		display: flex;
+		font-size: 28px;
+		font-weight:bold;
+		width:100%;
+		justify-content: space-between;
+	}
+
+	.liReportsDark, 
+    .liReportsLight{
+		cursor: pointer;
+		padding: 4px 4px 4px 4px;
+	}
+}
+
 @media screen and (max-width: 1920px) and (max-height: 1080px){
 
 	.SidebarContentDark ul li,
@@ -67,15 +108,7 @@
 		font-size:15px;
 		width:65%;
 	}
-		
-	.SidebarContentDark ul li{
-		color:white;
-	}
-
-	.SidebarContentLight ul li{
-		color:#181825;
-	}
-	
+			
 	.SidebarTitleDark, 
 	.SidebarTitleLight{
 		display: flex;
@@ -89,35 +122,19 @@
 		cursor: pointer;
 		padding: 4px 4px 4px 4px;
 	}
-
-	.liReportsDark:hover{
-		background-color: #5795f1;
-	}
-
-	.liReportsLight:hover{
-		background-color: #2da9be;
-	}
 }
 
 @media screen and (max-width: 1366px) and (max-height: 768px){
 
-	body .SidebarContentDark ul li,
-	body .SidebarContentLight ul li{
+	 .SidebarContentDark ul li,
+	 .SidebarContentLight ul li{
 		list-style-type: none;
 		font-size:13px;
 		width:90%;
 	}
 
-	.SidebarContentLight ul li{
-		color:#181825;
-	}
-	
-	.SidebarContentDark ul li{
-		color:white;
-	}
-
-	body .SidebarTitleDark, 
-	body .SidebarTitleLight{
+	 .SidebarTitleDark, 
+	 .SidebarTitleLight{
 		display: flex;
 		font-size: 15px;
 		font-weight:bold;

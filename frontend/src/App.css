@@ -16,21 +16,12 @@
   background-color:#222831
 }
 
-.fileUploadContainer{
-  position: relative;
-  height: 33vh;
-  width: 18%;
-  left:39%;
-  top:18vh; 
-  border-radius: 30px;
-  text-align: center;
- }
+.lblHeaderTitleLight{
+    color:#181825;
+}
 
-.cloudImageDark, 
-.cloudImageLight{
-  position:relative;
-  top: -16vh;
-  font-size: 15vh;
+.lblHeaderTitleDark{
+    color:white;
 }
 
 .cloudImageLight{
@@ -41,18 +32,23 @@
   color: 	#5795f1;
 }
 
-#fileUploadLabelDark, 
-#fileUploadLabelLight {
-  position:relative;
-  top:0vh;
-  height: 33vh;
-  width: 100%;
-  left:0%;
-  text-align: center;
-  border-width: 2px;
-  border-radius: 15px;
-  border-style: dashed;
-	border-color: #00ADB5;
+.BrowseFileLight{
+    background-color: #2da9be;
+    color:#181825;
+}
+
+.BrowseFileDark{
+    background-color: #5795f1;
+    color:white;
+}
+
+.BrowseFileDark:hover, 
+.getIdentificationsDarkEnabled:hover{
+    background-color: #1b6eeb;
+}
+
+.BrowseFileLight:hover{
+    background-color: #278899;
 }
     
 #fileUploadLabelLight {
@@ -82,471 +78,550 @@
   z-index: 0;
 }
 
-@media screen and (max-width: 1920px) and (max-height: 1080px){
-
-  .MainHeader{
-    position: relative;
-    left:20.5%;
-    top:2vh;
-  }
-
-  .lblHeaderTitleDark, 
-  .lblHeaderTitleLight{
-    position:absolute;
-    left:17%;
-    font-size: 80px;
-    top:3vh;
-    margin: auto;
-  }
-  
-  .lblHeaderTitleLight{
-    color:#181825;
-  }
-
-  .lblHeaderTitleDark{
+.UploadInstructions1Dark, 
+.UploadInstructions2Dark{
     color:white;
-  }
-  
-  .UploadInstructions1Dark, 
-  .UploadInstructions2Dark{
-    position: relative;
-    font-size: 20px;
-    color:white;
-    margin: auto;
-  }
+}
 
-  .UploadInstructions1Light, 
-  .UploadInstructions2Light{
-    position: relative;
-    font-size: 20px;
+.UploadInstructions1Light, 
+.UploadInstructions2Light{
     color:#181825;
-    margin: auto;
-  }
+}
 
-  .UploadInstructions1Dark, 
-  .UploadInstructions1Light{
-    top:-104%;
-  }
-
-  .UploadInstructions2Dark, 
-  .UploadInstructions2Light{
-    top:-95%;
-  }
-
-  .BrowseFileDark, 
-  .BrowseFileLight{
-    position: relative;
-    cursor: pointer;
-    top:-85%;
-    width:36%;
-    font-size: 20px;
-    border-radius: 40px;
-    padding: 3px 5px 5px 5px;
-  }
- 
-  .BrowseFileLight{
-    background-color: #2da9be;
-    color:#181825;
-  }
-
-  .BrowseFileDark{
-    background-color: #5795f1;
-    color:white;
-  }
-
-  .BrowseFileDark:hover, .getIdentificationsDarkEnabled:hover{
-    background-color: #1b6eeb;
-  }
-
-  .BrowseFileLight:hover{
-    background-color: #278899;
-  }
-
-  .getIdentificationsDarkDisabled, 
-  .getIdentificationsLightDisabled,
-  .getIdentificationsDarkEnabled, 
-  .getIdentificationsLightEnabled{
-    position:relative;
-    cursor:pointer;
-    top:19.5vh;
-    border: none;
-    border-radius: 40px;	
-    padding: 3px 3px 3px 3px;
-    height:10%;
-    width:10%;
-    font-size: 20px;
-    left:43vw;
-  }
-
-  .getIdentificationsDarkDisabled{
+.getIdentificationsDarkDisabled{
     background-color: #5795f1;
     color: rgb(104, 110, 110);
-  }
+}
 
-  .getIdentificationsLightDisabled{
+.getIdentificationsLightDisabled{
     background-color: #2da9be;
     color: rgb(104, 110, 110);
-  }
+}
 
-  .getIdentificationsDarkEnabled{
+.getIdentificationsDarkEnabled{
     background-color: #5795f1;
     color: white;
-  }
+}
 
-  .getIdentificationsLightEnabled{
+.getIdentificationsLightEnabled{
     background-color: #2da9be;
     color:#181825;
-  }
+}
 
-  .getIdentificationsDarkEnabled:hover{
+.getIdentificationsDarkEnabled:hover{
     background-color: #1b6eeb;
-  }
+}
 
-  .getIdentificationsLightEnabled:hover{
+.getIdentificationsLightEnabled:hover{
     background-color: #278899;
-  }
+}
 
-  .drag-file-element {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: 1rem;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-  }
-
-  .GoogleMapsContainerDark, 
-  .GoogleMapsContainerLight{
-    position:absolute;
-    height:35%;
-    width:21%;
-    top:63%;
-    left:51%;
-    border-radius: 15px;
-    text-align: center;
-    overflow: hidden
-  }
-
-  .GoogleMapsContainerLight{
+.imagePreviewLight,
+.GoogleMapsContainerLight{
     background-color:#8ec6ff;
-  }
+}
 
-  .GoogleMapsContainerDark{
+.imagePreviewDark,
+.GoogleMapsContainerDark{
     background-color: #5d6b72;
-  }
+}
 
-  .imagePreviewDark, 
-  .imagePreviewLight{
-    position:absolute;
-    height:35%;
-    width:21%;
-    text-align: center;
-    top:63%;
-    left:24%;
+.imgPreview{
     border-radius: 15px;
-  }
+}
 
-  .imagePreviewLight{
-    background-color:#8ec6ff;
-  }
+.lblImagePreviewLight,
+.lblGPSLocationLight,
+.iconGPSDataLight{
+    color:#181825;
+}
+
+.lblImagePreviewDark,
+.lblGPSLocationDark,
+.iconGPSDataDark,
+.iconImagePreviewDark{
+    color:white;
+}
+
+
+@media screen and (max-width: 2560px) and (max-height: 1440px){
+
+    .lblGPSLocationDark, 
+    .lblGPSLocationLight{
+        position:relative;
+        top:18vh;
+        left:59.5%;
+        font-weight: bold;
+        width:4.5%;
+        font-size: 28px;
+    }
+
+    .lblImagePreviewDark, 
+    .lblImagePreviewLight{
+        position:relative;
+        top:22.3vh;
+        left:32%;
+        font-weight: bold;
+        width:4%;
+        font-size: 28px;
+    }
+
     
-  .imagePreviewDark{
-    background-color: #5d6b72;
-  }
+}
 
-  .imgPreview{
-    border-radius: 15px;
-  }
+@media screen and (max-width: 2560px) and (max-height: 1600px){
 
-  .lblGPSLocationDark, 
-  .lblGPSLocationLight{
-    position:relative;
-    top:18vh;
-    left:59.5%;
-    font-weight: bold;
-    width:4.5%;
-    font-size: 18px;
-  }
+    .fileUploadContainer{
+        position: relative;
+        height: 33vh;
+        width: 18%;
+        left:39%;
+        top:18vh; 
+        border-radius: 30px;
+        text-align: center;
+    }
+      
+    .cloudImageDark, 
+    .cloudImageLight{
+        position:relative;
+        top: -16vh;
+        font-size: 15vh;
+    }
 
-  .lblGPSLocationLight{
-    color:#181825;
-  }
+    .MainHeader{
+        position: relative;
+        left:20.5%;
+        top:2vh;
+    }
 
-  .lblGPSLocationDark{
-    color:white;
-  }
+    #fileUploadLabelDark, 
+    #fileUploadLabelLight {
+        position:relative;
+        top:0vh;
+        height: 33vh;
+        width: 100%;
+        left:0%;
+        text-align: center;
+        border-width: 2px;
+        border-radius: 15px;
+        border-style: dashed;
+        border-color: #00ADB5;
+    }
 
-  .lblImagePreviewDark, 
-  .lblImagePreviewLight{
-    position:relative;
-    top:22vh;
-    left:33%;
-    font-weight: bold;
-    width:4%;
-    font-size: 18px;
-  }
+    .lblHeaderTitleDark, 
+    .lblHeaderTitleLight{
+        position:absolute;
+        left:15%;
+        font-size: 120px;
+        top:3vh;
+        margin: auto;
+    }
+    
+    .UploadInstructions1Dark, 
+    .UploadInstructions2Dark{
+        position: relative;
+        font-size: 30px;
+        margin: auto;
+    }
 
-  .lblImagePreviewLight{
-    color:#181825;
-  }
+    .UploadInstructions1Light, 
+    .UploadInstructions2Light{
+        position: relative;
+        font-size: 30px;
+        margin: auto;
+    }
 
-  .lblImagePreviewDark{
-    color:white;
-  }
+    .UploadInstructions1Dark, 
+    .UploadInstructions1Light{
+        top:-104%;
+    }
 
-  .iconImagePreviewDark,
-  .iconImagePreviewLight,
-  .iconGPSDataDark, 
-  .iconGPSDataLight{
-    position: relative;
-    top:42%;
-  }
+    .UploadInstructions2Dark, 
+    .UploadInstructions2Light{
+        top:-95%;
+    }
 
-  .iconGPSDataLight{
-    color:#181825;
-  }
+    .BrowseFileDark, 
+    .BrowseFileLight{
+        position: relative;
+        cursor: pointer;
+        top:-85%;
+        width:36%;
+        font-size: 28px;
+        border-radius: 40px;
+        padding: 3px 5px 5px 5px;
+    }
+    
+    .getIdentificationsDarkDisabled, 
+    .getIdentificationsLightDisabled,
+    .getIdentificationsDarkEnabled, 
+    .getIdentificationsLightEnabled{
+        position:relative;
+        cursor:pointer;
+        top:19.5vh;
+        border: none;
+        border-radius: 40px;	
+        padding: 3px 3px 3px 3px;
+        height:10%;
+        width:10%;
+        font-size: 28px;
+        left:43vw;
+    }
 
-  .iconGPSDataDark{
-    color:white;
-  }
+    .drag-file-element {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 1rem;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+    }
 
-  .iconImagePreviewDark{
-    color:white;
-  }
+    .GoogleMapsContainerDark, 
+    .GoogleMapsContainerLight{
+        position:absolute;
+        height:35%;
+        width:21%;
+        top:63%;
+        left:51%;
+        border-radius: 15px;
+        text-align: center;
+        overflow: hidden
+    }
+
+    .imagePreviewDark, 
+    .imagePreviewLight{
+        position:absolute;
+        height:35%;
+        width:21%;
+        text-align: center;
+        top:63%;
+        left:24%;
+        border-radius: 15px;
+    }
+
+    .lblGPSLocationDark, 
+    .lblGPSLocationLight{
+        position:relative;
+        top:19vh;
+        left:59.5%;
+        font-weight: bold;
+        width:4.5%;
+        font-size: 28px;
+    }
+
+    .lblImagePreviewDark, 
+    .lblImagePreviewLight{
+        position:relative;
+        top:23vh;
+        left:32.5%;
+        font-weight: bold;
+        width:4%;
+        font-size: 28px;
+    }
+
+    .iconImagePreviewDark,
+    .iconImagePreviewLight,
+    .iconGPSDataDark, 
+    .iconGPSDataLight{
+        position: relative;
+        top:42%;
+    }
+}
+
+@media screen and ((max-width: 1920px) and (max-height: 1080px)), ((max-width: 1920px) and (max-height: 1200px)){
+
+    .fileUploadContainer{
+        position: relative;
+        height: 33vh;
+        width: 18%;
+        left:39%;
+        top:18vh; 
+        border-radius: 30px;
+        text-align: center;
+    }
+      
+    .cloudImageDark, 
+    .cloudImageLight{
+        position:relative;
+        top: -16vh;
+        font-size: 15vh;
+    }
+
+    .MainHeader{
+        position: relative;
+        left:20.5%;
+        top:2vh;
+    }
+
+    #fileUploadLabelDark, 
+    #fileUploadLabelLight {
+        position:relative;
+        top:0vh;
+        height: 33vh;
+        width: 100%;
+        left:0%;
+        text-align: center;
+        border-width: 2px;
+        border-radius: 15px;
+        border-style: dashed;
+        border-color: #00ADB5;
+    }
+
+    .lblHeaderTitleDark, 
+    .lblHeaderTitleLight{
+        position:absolute;
+        left:17%;
+        font-size: 80px;
+        top:3vh;
+        margin: auto;
+    }
+    
+    .UploadInstructions1Dark, 
+    .UploadInstructions2Dark{
+        position: relative;
+        font-size: 20px;
+        margin: auto;
+    }
+
+    .UploadInstructions1Light, 
+    .UploadInstructions2Light{
+        position: relative;
+        font-size: 20px;
+        margin: auto;
+    }
+
+    .UploadInstructions1Dark, 
+    .UploadInstructions1Light{
+        top:-104%;
+    }
+
+    .UploadInstructions2Dark, 
+    .UploadInstructions2Light{
+        top:-95%;
+    }
+
+    .BrowseFileDark, 
+    .BrowseFileLight{
+        position: relative;
+        cursor: pointer;
+        top:-85%;
+        width:36%;
+        font-size: 20px;
+        border-radius: 40px;
+        padding: 3px 5px 5px 5px;
+    }
+    
+    .getIdentificationsDarkDisabled, 
+    .getIdentificationsLightDisabled,
+    .getIdentificationsDarkEnabled, 
+    .getIdentificationsLightEnabled{
+        position:relative;
+        cursor:pointer;
+        top:19.5vh;
+        border: none;
+        border-radius: 40px;	
+        padding: 3px 3px 3px 3px;
+        height:10%;
+        width:10%;
+        font-size: 20px;
+        left:43vw;
+    }
+
+    .drag-file-element {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 1rem;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+    }
+
+    .GoogleMapsContainerDark, 
+    .GoogleMapsContainerLight{
+        position:absolute;
+        height:35%;
+        width:21%;
+        top:63%;
+        left:51%;
+        border-radius: 15px;
+        text-align: center;
+        overflow: hidden
+    }
+
+    .imagePreviewDark, 
+    .imagePreviewLight{
+        position:absolute;
+        height:35%;
+        width:21%;
+        text-align: center;
+        top:63%;
+        left:24%;
+        border-radius: 15px;
+    }
+
+    .lblGPSLocationDark, 
+    .lblGPSLocationLight{
+        position:relative;
+        top:18vh;
+        left:59.5%;
+        font-weight: bold;
+        width:4.5%;
+        font-size: 18px;
+    }
+
+    .lblImagePreviewDark, 
+    .lblImagePreviewLight{
+        position:relative;
+        top:22vh;
+        left:33%;
+        font-weight: bold;
+        width:4%;
+        font-size: 18px;
+    }
+
+    .iconImagePreviewDark,
+    .iconImagePreviewLight,
+    .iconGPSDataDark, 
+    .iconGPSDataLight{
+        position: relative;
+        top:42%;
+    }
 }
 
 @media screen and (max-width: 1366px) and (max-height: 768px){
    
-  .MainHeader{
-    position: relative;
-    left:20.5%;
-    top:1vh;
-  }
+    .MainHeader{
+        position: relative;
+        left:20.5%;
+        top:1vh;
+    }
 
-  body .lblHeaderTitleDark, 
-  body .lblHeaderTitleLight{
-    position:absolute;
-    left:15.5%;
-    font-size: 62px;
-    top:3vh;
-  }
-  
-  body .lblHeaderTitleLight{
-    color:#181825;
-  }
-
-  body .lblHeaderTitleDark{
-    color:white;
-  }
-  
-  body .UploadInstructions1Dark, 
-  body .UploadInstructions2Dark{
-    position: relative;
-    font-size: 16px;
-    color:white;
-    margin: auto;
-  }
-
-  body .UploadInstructions1Light, 
-  body .UploadInstructions2Light{
-    position: relative;
-    font-size: 16px;
-    color:#181825;
-    margin: auto;
-  }
-
-  body .UploadInstructions1Dark, 
-  body .UploadInstructions1Light{
-    top:-104%;
-  }
-
-  body .UploadInstructions2Dark, 
-  body .UploadInstructions2Light{
-    top:-95%;
-  }
-
-  body .BrowseFileDark, 
-  body .BrowseFileLight{
-    position: relative;
-    cursor: pointer;
-    top:-85%;
-    width:38%;
-    font-size: 16px;
-    border-radius: 40px;
-    padding: 3px 3px 3px 3px;
-  }
- 
-  body .BrowseFileDark{
-    background-color: #5795f1;
-    color:white;
-  }
-
-  body .BrowseFileLight{
-    background-color: #2da9be;
-    color:#181825;
-  }
-
-  body .BrowseFileDark:hover, .getIdentificationsDarkEnabled:hover{
-    background-color: #1b6eeb;
-  }
-
-  body .BrowseFileLight:hover{
-    background-color: #278899;
-  }
-
-  body .getIdentificationsDarkDisabled, 
-  body .getIdentificationsLightDisabled,
-  body .getIdentificationsDarkEnabled, 
-  body .getIdentificationsLightEnabled{
-    position:relative;
-    cursor:pointer;
-    top:19.5vh;
-    border: none;
-    border-radius: 40px;	
-    padding: 2px 3px 3px 3px;
-    height:10%;
-    width:12%;
-    font-size: 16px;
-    left:42vw;
-  }
-
-  body .getIdentificationsDarkDisabled{
-    background-color: #5795f1;
-    color: rgb(104, 110, 110);
-  }
-
-  body .getIdentificationsLightDisabled{
-    background-color: #2da9be;
-    color: rgb(104, 110, 110);
-  }
-
-  body .getIdentificationsDarkEnabled{
-    background-color: #5795f1;
-    color: white;
-  }
-
-  body .getIdentificationsLightEnabled{
-    background-color: #2da9be;
-    color:#181825;
-  }
-
-  body .getIdentificationsDarkEnabled:hover{
-    background-color: #1b6eeb;
-  }
-
-  body .getIdentificationsLightEnabled:hover{
-    background-color: #278899;
-  }
-
-  body .drag-file-element {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: 1rem;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-  }
-
-  body .GoogleMapsContainerDark, 
-  body .GoogleMapsContainerLight{
-    position:absolute;
-    height:35%;
-    width:21%;
-    top:63%;
-    left:51%;
-    border-radius: 15px;
-    text-align: center;
-    overflow: hidden
-  }
-
-  body .GoogleMapsContainerLight{
-    background-color:#8ec6ff;
-  }
-
-  body .GoogleMapsContainerDark{
-    background-color: #5d6b72;
-  }
-
-  .sitecontainerDark .imagePreviewDark, 
-  body .imagePreviewLight{
-    position:absolute;
-    height:35%;
-    width:21%;
-    text-align: center;
-    top:63%;
-    left:24%;
-    border-radius: 15px;
-  }
-
-  body .imagePreviewLight{
-    background-color:#8ec6ff;
-  }
+    .lblHeaderTitleDark, 
+    .lblHeaderTitleLight{
+        position:absolute;
+        left:15.5%;
+        font-size: 62px;
+        top:3vh;
+        }
     
-  body .imagePreviewDark{
-    background-color: #5d6b72;
+   .UploadInstructions1Dark, 
+   .UploadInstructions2Dark{
+        position: relative;
+        font-size: 15px;
+        color:white;
+        margin: auto;
+    }
+
+   .UploadInstructions1Light, 
+   .UploadInstructions2Light{
+        position: relative;
+        font-size: 15px;
+        color:#181825;
+        margin: auto;
+    }
+
+   .UploadInstructions1Dark, 
+   .UploadInstructions1Light{
+        top:-104%;
+    }
+
+   .UploadInstructions2Dark, 
+   .UploadInstructions2Light{
+        top:-95%;
+    }
+
+   .BrowseFileDark, 
+   .BrowseFileLight{
+        position: relative;
+        cursor: pointer;
+        top:-85%;
+        width:38%;
+        font-size: 15px;
+        border-radius: 40px;
+        padding: 3px 3px 3px 3px;
+    }
+ 
+   .getIdentificationsDarkDisabled, 
+   .getIdentificationsLightDisabled,
+   .getIdentificationsDarkEnabled, 
+   .getIdentificationsLightEnabled{
+        position:relative;
+        cursor:pointer;
+        top:19.5vh;
+        border: none;
+        border-radius: 40px;	
+        padding: 2px 3px 3px 3px;
+        height:10%;
+        width:12%;
+        font-size: 16px;
+        left:42vw;
+    }
+
+
+   .drag-file-element {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 1rem;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+    }
+
+   .GoogleMapsContainerDark, 
+   .GoogleMapsContainerLight{
+        position:absolute;
+        height:35%;
+        width:21%;
+        top:63%;
+        left:51%;
+        border-radius: 15px;
+        text-align: center;
+        overflow: hidden
+    }
+
+    .imagePreviewDark, 
+    .imagePreviewLight{
+        position:absolute;
+        height:35%;
+        width:21%;
+        text-align: center;
+        top:63%;
+        left:24%;
+        border-radius: 15px;
+    }
+
+   .lblGPSLocationDark, 
+   .lblGPSLocationLight{
+        position:relative;
+        top:14vh;
+        left:59%;
+        font-weight: bold;
+        width:4.5%;
+        font-size: 18px;
+    }
+
+   .lblImagePreviewDark, 
+   .lblImagePreviewLight{
+        position:relative;
+        top:20vh;
+        left:32.5%;
+        font-weight: bold;
+        width:4%;
+        font-size: 16px;
   }
 
-  body .imgPreview{
-    border-radius: 15px;
-  }
-
-  body .lblGPSLocationDark, 
-  body .lblGPSLocationLight{
-    position:relative;
-    top:17vh;
-    left:59%;
-    font-weight: bold;
-    width:4.5%;
-    font-size: 18px;
-  }
-
-  body .lblGPSLocationLight{
-    color:#181825;
-  }
-
-  body .lblGPSLocationDark{
-    color:white;
-  }
-
-  body .lblImagePreviewDark, 
-  body .lblImagePreviewLight{
-    position:relative;
-    top:22vh;
-    left:32.5%;
-    font-weight: bold;
-    width:4%;
-    font-size: 16px;
-  }
-
-  body .lblImagePreviewLight{
-    color:#181825;
-  }
-
-  body .lblImagePreviewDark{
-    color:white;
-  }
-
-  body .iconImagePreviewDark, 
-  body .iconImagePreviewLight,
-  body .iconGPSDataDark, 
-  body .iconGPSDataLight{
-    position: relative;
-    top:39%;
-  }
-
-  body .iconGPSDataLight{
-    color:#181825;
-  }
-
-  body .iconGPSDataDark{
-    color:white;
-  }
-   
-  body .iconImagePreviewDark{
-    color:white;
+   .iconImagePreviewDark, 
+   .iconImagePreviewLight,
+   .iconGPSDataDark, 
+   .iconGPSDataLight{
+        position: relative;
+        top:39%;
   }
 }

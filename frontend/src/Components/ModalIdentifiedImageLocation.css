@@ -59,22 +59,40 @@
 	background-color: #7e8183;
 }
 
-@media screen and (max-width: 1920px) and (max-height: 1080px){
+.IdentifiedImageLocationDark{
+    color: white;
+}
+
+.IdentifiedImageLocationLight{
+    color: #181825;
+}
+
+.CloseModalIdentifiedImageLocationDark{
+    background-color: #5b5d5f;
+    color:white;
+}
+
+.CloseModalIdentifiedImageLocationLight{
+    background-color: #0490bf;
+    color:#181825;
+}
+
+.CloseModalIdentifiedImageLocationDark:hover{
+    background-color: #434547;
+}
+
+.CloseModalIdentifiedImageLocationLight:hover{
+    background-color: #0479a0;
+}
+
+@media screen and ((max-width: 25600px) and (max-height: 1600px)),((max-width: 1920px) and (max-height: 1080px)){
 	
 	.IdentifiedImageLocationDark, 
 	.IdentifiedImageLocationLight{
 		text-align: center;
 		font-weight: bold;
 		padding-top: 6px;
-		font-size: 30px;
-	}
-
-	.IdentifiedImageLocationDark{
-		color: white;
-	}
-	
-	.IdentifiedImageLocationLight{
-		color: #181825;
+		font-size: 48px;
 	}
 
 	.CloseModalIdentifiedImageLocationDark, 
@@ -82,51 +100,25 @@
 		position:absolute;
 		top: 1%;
 		left:93%;
-		font-size: 25px;
+		font-size: 48px;
 		border: none;
 		cursor: pointer;
 		z-index: 2;
-	}
-	
-	.CloseModalIdentifiedImageLocationDark{
-		background-color: #5b5d5f;
-		color:white;
-	}
-
-	.CloseModalIdentifiedImageLocationLight{
-		background-color: #0490bf;
-		color:#181825;
-	}
-
-	.CloseModalIdentifiedImageLocationDark:hover{
-		background-color: #434547;
-	}
-
-	.CloseModalIdentifiedImageLocationLight:hover{
-		background-color: #0479a0;
 	}
 }
 
 @media screen and (max-width: 1366px) and (max-height: 768px){
 	
-	body .IdentifiedImageLocationDark, 
-	body .IdentifiedImageLocationLight{
+	 .IdentifiedImageLocationDark, 
+	 .IdentifiedImageLocationLight{
 		text-align: center;
 		font-weight: bold;
 		padding-top: 5px;
 		font-size: 24px;
 	}
 
-	body .IdentifiedImageLocationDark{
-		color: white;
-	}
-	
-	body .IdentifiedImageLocationLight{
-		color: #181825;
-	}
-
-	body .CloseModalIdentifiedImageLocationDark, 
-	body .CloseModalIdentifiedImageLocationLight {
+	 .CloseModalIdentifiedImageLocationDark, 
+	 .CloseModalIdentifiedImageLocationLight {
 		position:absolute;
 		top: 0%;
 		left:92%;
@@ -134,15 +126,5 @@
 		border: none;
 		cursor: pointer;
 		z-index: 2;
-	}
-	
-	body .CloseModalIdentifiedImageLocationDark{
-		background-color: #5b5d5f;
-		color:white;
-	}
-
-	body .CloseModalIdentifiedImageLocationLight{
-		background-color: #0490bf;
-		color:#181825;
 	}
 }

@@ -17,47 +17,408 @@
 	background-color:#393E46;
 }
 
-.RecentSearches{
-	text-align: center;
-	position:relative;
-	top:10%;
-	display: inline-block;
-	margin: 0;
-	padding: 0;
-	width:92%;
+.iconHistoryLight i {
+    color: 	rgb(15, 19, 233);
+}
+
+.iconHistoryDark i{
+    color: 	#6EB6FF;
+}
+
+.RecentSearchesHeadingLight{
+    color:#181825;
+}
+
+.RecentSearchesHeadingDark{
+    color: 	white;
+}
+
+.hdrUnderlineLight{
+    background-color: #1b6eeb;
+}
+
+.hdrUnderlineDark{
+    background-color:rgb(93, 101, 107);
+}
+
+.iconRecentSearchesError{
+    color:rgb(218, 2, 2);
+}
+
+.lblRecentSearchesErrorLight{
+    color:#181825;
+}
+
+.lblRecentSearchesErrorDark{
+    color:white;
+}
+
+.RecentSearchesListItemPlaceHolderDark, 
+.RecentSearchesListItemDark{
+    background-color: #5d6b72;
+    box-shadow: 4px 4px 6px rgb(34,40,49)
+}
+
+.RecentSearchesListItemPlaceHolderLight, 
+.RecentSearchesListItemLight{
+    background-color: #93bcfa;
+    box-shadow: 4px 4px 6px rgb(25, 138, 182);
+}
+
+.lblRecentSearchesPlantLight{
+    color:#181825;
+}
+
+.lblRecentSearchesPlantDark{
+    color:white;
+}
+
+.RecentSearchesPlantLight{
+    background-color: #91dcff;
+    color:#181825;
+}
+
+.RecentSearchesPlantDark{
+    background-color: #7e8183;
+    color:white;
+}
+
+.lblRecentSearchesScoreLight{
+    color:#181825;
+}
+
+.lblRecentSearchesScoreDark{
+    color:white;
+}
+
+.RecentSearchesScoreLight{
+    background-color:#91dcff;
+    color:#181825;
+}	
+
+.RecentSearchesScoreDark{
+    background-color: #7e8183;
+    color:white;
+}
+
+.lblRecentSearchesDateLight{
+    color:#181825;
+}
+
+.lblRecentSearchesDateDark{
+    color:white;
+}
+
+.RecentSearchesDateLight{
+    background-color: #91dcff;
+    color:#181825;
+}
+
+.RecentSearchesDateDark{
+    background-color: #7e8183;
+    color:white;
+}
+
+.lblNoSearchDataLight{
+    color:#181825;
+}
+
+.lblNoSearchDataDark{
+    color:white;
+}
+
+
+
+@media screen and (max-width: 2560px) and (max-height: 1600px){
+	  
+	.RecentSearches{
+        text-align: center;
+        position:relative;
+        top:23%;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        width:92%;
+    }
+    
+    .iconHistoryDark i, 
+	.iconHistoryLight i{
+		position:absolute;
+		top:3%;
+		left:10%;
+	}
+		
+	.RecentSearchesHeadingDark, 
+	.RecentSearchesHeadingLight{
+		position: absolute;
+		top:-0.4%;
+		font-size: 46px;
+		left:23%;
+	}
+	
+	.hdrUnderlineDark, 
+	.hdrUnderlineLight{
+		position:relative;
+		margin: auto;
+		width: 85%;
+		height:0.5%;
+		top:7%;
+	}
+
+	.iconRecentSearchesError{
+		position: relative;
+		top:40vh;
+	}
+
+	.lblRecentSearchesErrorDark, 
+	.lblRecentSearchesErrorLight{
+		position: relative;
+		font-size: 38px;
+		top:40vh;
+	}
+
+	.RecentSearchesListItemPlaceHolderDark, 
+	.RecentSearchesListItemPlaceHolderLight,
+	.RecentSearchesListItemDark, 
+	.RecentSearchesListItemLight{
+		position:relative;
+		height:18vh;
+		margin-top: 13%;
+		border-radius:15px;
+		list-style-type: none;
+		padding-top:1px;
+    }
+
+	.RecentSearchesListItemPlaceHolderDark, 
+	.RecentSearchesListItemPlaceHolderLight{	
+		top:-15vh;
+	}
+
+	.RecentSearchesListItemDark, 
+	.RecentSearchesListItemLight{	
+		top:-80.8vh;
+	}
+
+	.RecentSearchesImage{
+		position: absolute;
+		padding: 14px;
+		left:0vw;
+		top:0vh;
+		width:60%;
+		height:100%;
+		border-radius: 25px;
+	}
+		
+	.lblRecentSearchesPlantDark, 
+	.lblRecentSearchesPlantLight{
+		position:relative;
+		font-size: 22px;
+		left:25.5%;
+		top:1%;
+		font-weight:bold;
+	}
+
+	.RecentSearchesPlantDark, 
+	.RecentSearchesPlantLight{
+		position:relative;
+		font-size: 22px;
+		top:-6%;
+		left:61%;
+		width:35%;
+		text-align: left;
+		padding:3px;
+	}
+
+	.lblRecentSearchesScoreDark, 
+	.lblRecentSearchesScoreLight{
+		position:relative;
+		font-size: 22px;
+		left:16.5%;
+		top:-5%;
+		font-weight:bold;
+	}
+
+	.RecentSearchesScoreDark, 
+	.RecentSearchesScoreLight{
+		position:relative;
+		font-size: 22px;
+		top:-12%;
+		left:61%;
+		width:35%;
+		text-align: left;
+		padding:3px;
+	}	
+
+	.lblRecentSearchesDateDark, 
+	.lblRecentSearchesDateLight{
+		position:relative;
+		font-size: 22px;
+		left:22%;
+		top:-11%;
+		font-weight:bold;
+	}
+
+	.RecentSearchesDateDark, 
+	.RecentSearchesDateLight{
+		position:relative;
+		font-size: 22px;
+		top:-18%;
+		left:61%;
+		width:35%;
+		text-align: left;
+		padding:3px;
+	}
+
+	.lblNoSearchDataDark, 
+	.lblNoSearchDataLight{
+		position:relative;
+		font-size: 22px;
+		top:42%;
+		font-weight: bold;
+		margin:auto;
+		width:35%;
+	}
+}
+
+
+@media screen and (max-width: 2560px) and (max-height: 1440px){
+	  
+    .RecentSearches{
+        text-align: center;
+        position:relative;
+        top:21%;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        width:92%;
+    }
+    
+    .RecentSearchesListItemPlaceHolderDark, 
+	.RecentSearchesListItemPlaceHolderLight{	
+		top:-13.5vh;
+	}
+
+    .iconHistoryDark i, 
+	.iconHistoryLight i{
+		position:absolute;
+		top:2.7%;
+		left:13%;
+	}
+
+    .RecentSearchesHeadingDark, 
+	.RecentSearchesHeadingLight{
+		position: absolute;
+		top:-0.3%;
+		font-size: 40px;
+		left:28%;
+	}
+
+	.RecentSearchesImage{
+		position: absolute;
+		padding: 14px;
+		left:0vw;
+		top:0vh;
+		width:60%;
+		height:100%;
+		border-radius: 25px;
+	}
+		
+	.lblRecentSearchesPlantDark, 
+	.lblRecentSearchesPlantLight{
+		position:relative;
+		font-size: 22px;
+		left:25.5%;
+		top:-3%;
+		font-weight:bold;
+	}
+
+	.RecentSearchesPlantDark, 
+	.RecentSearchesPlantLight{
+		position:relative;
+		font-size: 22px;
+		top:-10%;
+		left:61%;
+		width:35%;
+		text-align: left;
+		padding:3px;
+	}
+
+	.lblRecentSearchesScoreDark, 
+	.lblRecentSearchesScoreLight{
+		position:relative;
+		font-size: 22px;
+		left:16.5%;
+		top:-11%;
+		font-weight:bold;
+	}
+
+	.RecentSearchesScoreDark, 
+	.RecentSearchesScoreLight{
+		position:relative;
+		font-size: 22px;
+		top:-19%;
+		left:61%;
+		width:35%;
+		text-align: left;
+		padding:3px;
+	}	
+
+	.lblRecentSearchesDateDark, 
+	.lblRecentSearchesDateLight{
+		position:relative;
+		font-size: 22px;
+		left:23%;
+		top:-18%;
+		font-weight:bold;
+	}
+
+	.RecentSearchesDateDark, 
+	.RecentSearchesDateLight{
+		position:relative;
+		font-size: 22px;
+		top:-26%;
+		left:61%;
+		width:35%;
+		text-align: left;
+		padding:3px;
+	}
+
+	.lblNoSearchDataDark, 
+	.lblNoSearchDataLight{
+		position:relative;
+		font-size: 22px;
+		top:42%;
+		font-weight: bold;
+		margin:auto;
+		width:35%;
+	} 
 }
 
 @media screen and (max-width: 1920px) and (max-height: 1080px){
-	  
+	 
+    .RecentSearches{
+        text-align: center;
+        position:relative;
+        top:10%;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        width:92%;
+    }
+
 	.iconHistoryDark i, 
 	.iconHistoryLight i{
 		position:absolute;
 		top:2%;
 		left:12%;
 	}
-	
-	.iconHistoryLight i {
-		color: 	rgb(15, 19, 233);
-	}
-
-	.iconHistoryDark i{
-		color: 	#6EB6FF;
-	}
-
+		
 	.RecentSearchesHeadingDark, 
 	.RecentSearchesHeadingLight{
 		position: absolute;
 		top:-1%;
 		font-size: 32px;
 		left:27%;
-	}
-
-	.RecentSearchesHeadingLight{
-		color:#181825;
-	}
-
-	.RecentSearchesHeadingDark{
-		color: 	white;
 	}
 	
 	.hdrUnderlineDark, 
@@ -69,17 +430,8 @@
 		top:8%;
 	}
 
-	.hdrUnderlineLight{
-		background-color: #1b6eeb;
-	}
-
-	.hdrUnderlineDark{
-		background-color:rgb(93, 101, 107);
-	}
-
 	.iconRecentSearchesError{
 		position: relative;
-		color:rgb(218, 2, 2);
 		top:40vh;
 	}
 
@@ -88,15 +440,6 @@
 		position: relative;
 		font-size: 20px;
 		top:40vh;
-		
-	}
-
-	.lblRecentSearchesErrorLight{
-		color:#181825;
-	}
-	
-	.lblRecentSearchesErrorDark{
-		color:white;
 	}
 
 	.RecentSearchesListItemPlaceHolderDark, 
@@ -114,24 +457,12 @@
 
 	.RecentSearchesListItemPlaceHolderDark, 
 	.RecentSearchesListItemPlaceHolderLight{	
-		top:-2.5vh;
+		top:-2.3vh;
 	}
 
 	.RecentSearchesListItemDark, 
 	.RecentSearchesListItemLight{	
 		top:-85.8vh;
-	}
-
-	.RecentSearchesListItemPlaceHolderDark, 
-	.RecentSearchesListItemDark{
-		background-color: #5d6b72;
-		box-shadow: 4px 4px 6px rgb(34,40,49)
-	}
-
-	.RecentSearchesListItemPlaceHolderLight, 
-	.RecentSearchesListItemLight{
-		background-color: #93bcfa;
-		box-shadow: 4px 4px 6px rgb(25, 138, 182);
 	}
 
 	.RecentSearchesImage{
@@ -153,14 +484,6 @@
 		font-weight:bold;
 	}
 
-	.lblRecentSearchesPlantLight{
-		color:#181825;
-	}
-
-	.lblRecentSearchesPlantDark{
-		color:white;
-	}
-
 	.RecentSearchesPlantDark, 
 	.RecentSearchesPlantLight{
 		position:relative;
@@ -172,16 +495,6 @@
 		padding:3px;
 	}
 
-	.RecentSearchesPlantLight{
-		background-color: #91dcff;
-		color:#181825;
-	}
-
-	.RecentSearchesPlantDark{
-		background-color: #7e8183;
-		color:white;
-	}
-
 	.lblRecentSearchesScoreDark, 
 	.lblRecentSearchesScoreLight{
 		position:relative;
@@ -189,14 +502,6 @@
 		left:16.5%;
 		top:-5%;
 		font-weight:bold;
-	}
-
-	.lblRecentSearchesScoreLight{
-		color:#181825;
-	}
-
-	.lblRecentSearchesScoreDark{
-		color:white;
 	}
 
 	.RecentSearchesScoreDark, 
@@ -210,16 +515,6 @@
 		padding:3px;
 	}	
 
-	.RecentSearchesScoreLight{
-		background-color:#91dcff;
-		color:#181825;
-	}	
-
-	.RecentSearchesScoreDark{
-		background-color: #7e8183;
-		color:white;
-	}
-
 	.lblRecentSearchesDateDark, 
 	.lblRecentSearchesDateLight{
 		position:relative;
@@ -227,14 +522,6 @@
 		left:22%;
 		top:-11%;
 		font-weight:bold;
-	}
-
-	.lblRecentSearchesDateLight{
-		color:#181825;
-	}
-
-	.lblRecentSearchesDateDark{
-		color:white;
 	}
 
 	.RecentSearchesDateDark, 
@@ -248,16 +535,6 @@
 		padding:3px;
 	}
 
-	.RecentSearchesDateLight{
-		background-color: #91dcff;
-		color:#181825;
-	}
-
-	.RecentSearchesDateDark{
-		background-color: #7e8183;
-		color:white;
-	}
-
 	.lblNoSearchDataDark, 
 	.lblNoSearchDataLight{
 		position:relative;
@@ -267,43 +544,27 @@
 		margin:auto;
 		width:35%;
 	}
-
-	.lblNoSearchDataLight{
-		color:#181825;
-	}
-
-	.lblNoSearchDataDark{
-		color:white;
-	}
 }
 
 @media screen and (max-width: 1366px) and (max-height: 768px){
 	
-	body .iconHistoryDark i, 
-	body .iconHistoryLight i{
+	.iconHistoryDark i, 
+	.iconHistoryLight i{
 		position:absolute;
 		top:1.5%;
 		left:9%;
 	}
 	
-	body .RecentSearchesHeadingDark, 
-	body .RecentSearchesHeadingLight{
+	.RecentSearchesHeadingDark, 
+	.RecentSearchesHeadingLight{
 		position: absolute;
 		top:-0.5%;
 		font-size: 24px;
 		left:28%;
 	}
 
-	body .RecentSearchesHeadingLight{
-		color:#181825;
-	}
-
-	body .RecentSearchesHeadingDark{
-		color: 	white;
-	}
-
-	body .hdrUnderlineDark, 
-	body .hdrUnderlineLight{
+	.hdrUnderlineDark, 
+	.hdrUnderlineLight{
 		position:relative;
 		margin: auto;
 		width: 85%;
@@ -311,32 +572,22 @@
 		top:9%;
 	}
 	
-	body .iconRecentSearchesError{
+	.iconRecentSearchesError{
 		position: relative;
-		color:rgb(218, 2, 2);
 		top:40vh;
 	}
 
-	body .lblRecentSearchesErrorDark, 
-	body .lblRecentSearchesErrorLight{
+	.lblRecentSearchesErrorDark, 
+	.lblRecentSearchesErrorLight{
 		position: relative;
 		font-size: 16px;
 		top:40vh;
-		
 	}
 
-	.lblRecentSearchesErrorLight{
-		color:#181825;
-	}
-	
-	body .lblRecentSearchesErrorDark{
-		color:white;
-	}
-
-	body .RecentSearchesListItemPlaceHolderDark, 
-	body .RecentSearchesListItemPlaceHolderLight,
-	body .RecentSearchesListItemDark, 
-	body .RecentSearchesListItemLight{
+	.RecentSearchesListItemPlaceHolderDark, 
+	.RecentSearchesListItemPlaceHolderLight,
+	.RecentSearchesListItemDark, 
+	.RecentSearchesListItemLight{
 		position:relative;
 		height:22vh;
 		margin-top: 15%;
@@ -345,29 +596,19 @@
 		list-style-type: none;
 	}
 
-	body .RecentSearchesListItemPlaceHolderDark, 
-	body .RecentSearchesListItemPlaceHolderLight{	
+	.RecentSearchesListItemPlaceHolderDark, 
+	.RecentSearchesListItemPlaceHolderLight{	
 		top:-1vh;
 	}
 
-	body .RecentSearchesListItemDark, 
-	body .RecentSearchesListItemLight{	
-		top:-82.5vh;
+	.RecentSearchesListItemDark, 
+	.RecentSearchesListItemLight{	
+		top:-85.5vh;
 	}
 
-	body .RecentSearchesListItemPlaceHolderDark, 
-	body .RecentSearchesListItemDark{
-		background-color: #5d6b72;
-	}
-
-	body .RecentSearchesListItemPlaceHolderLight, 
-	body .RecentSearchesListItemLight{
-		background-color: #93bcfa;
-	}
-
-	body .RecentSearchesImage{
+	.RecentSearchesImage{
 		position: absolute;
-		padding: 10px;
+		padding: 8px;
 		left:0vw;
 		top:0vh;
 		width:60%;
@@ -375,27 +616,19 @@
 		border-radius: 25px;
 	}
 		
-	body .lblRecentSearchesPlantDark, 
-	body .lblRecentSearchesPlantLight{
+	.lblRecentSearchesPlantDark, 
+	.lblRecentSearchesPlantLight{
 		position:relative;
-		font-size: 14px;
-		left:27%;
+		font-size: 12px;
+		left:25%;
 		top:-1%;
 		font-weight: bold;
 	}
 
-	body .lblRecentSearchesPlantLight{
-		color:#181825;
-	}
-
-	body .lblRecentSearchesPlantDark{
-		color:white;
-	}
-
-	body .RecentSearchesPlantDark, 
-	body .RecentSearchesPlantLight{
+	.RecentSearchesPlantDark, 
+	.RecentSearchesPlantLight{
 		position:relative;
-		font-size: 14px;
+		font-size: 12px;
 		top:-9%;
 		left:60%;
 		width:36%;
@@ -403,71 +636,39 @@
 		text-align: left;
 	}
 
-	body .RecentSearchesPlantLight{
-		background-color:#91dcff;
-	}
-
-	body .RecentSearchesPlantDark{
-		background-color: #7e8183;
-	}
-
-	body .lblRecentSearchesScoreDark, 
-	body .lblRecentSearchesScoreLight{
+	.lblRecentSearchesScoreDark, 
+	.lblRecentSearchesScoreLight{
 		position:relative;
-		font-size: 14px;
-		left:17%;
+		font-size: 12px;
+		left:16%;
 		top:-10%;
 		font-weight: bold;
 	}
 
-	body .lblRecentSearchesScoreLight{
-		color:#181825;
-	}
-
-	body .lblRecentSearchesScoreDark{
-		color:white;
-	}
-
-	body .RecentSearchesScoreDark, 
-	body .RecentSearchesScoreLight{
+	.RecentSearchesScoreDark, 
+	.RecentSearchesScoreLight{
 		position:relative;
-		font-size: 14px;
+		font-size: 12px;
 		top:-18%;
 		left:60%;
 		width:36%;
 		text-align: left;
 		padding:1px;
 	}	
-	
-	body .RecentSearchesScoreLight{
-		background-color:#91dcff;
-	}	
-
-	body .RecentSearchesScoreDark{
-		background-color: #7e8183;
-	}
-
-	body .lblRecentSearchesDateDark, 
-	body .lblRecentSearchesDateLight{
+		
+	.lblRecentSearchesDateDark, 
+	.lblRecentSearchesDateLight{
 		position:relative;
-		font-size: 14px;
-		left:24%;
+		font-size: 12px;
+		left:22%;
 		top:-17%;
 		font-weight: bold;
 	}
 
-	body .lblRecentSearchesDateLight{
-		color:#181825;
-	}
-
-	body .lblRecentSearchesDateDark{
-		color:white;
-	}
-
-	body .RecentSearchesDateDark,
-	body .RecentSearchesDateLight{
+	.RecentSearchesDateDark,
+	.RecentSearchesDateLight{
 		position:relative;
-		font-size: 14px;
+		font-size: 12px;
 		top:-25%;
 		left:60%;
 		width:36%;
@@ -475,31 +676,13 @@
 		padding:1px;
 	}
 
-	body .RecentSearchesDateLight{
-		background-color: #91dcff;
-		color:#181825;
-	}
-
-	body .RecentSearchesDateDark{
-		background-color: #7e8183;
-		color:white;
-	}
-
-	body .lblNoSearchDataDark, 
-	body .lblNoSearchDataDark{
+	.lblNoSearchDataDark, 
+    .lblNoSearchDataDark{
 		position:relative;
-		font-size: 14px;
+		font-size: 12px;
 		top:42%;
 		font-weight: bold;
 		margin:auto;
 		width:45%;
-	}
-
-	body .lblNoSearchDataDark{
-		color:#181825;
-	}
-
-	body .lblNoSearchDataDark{
-		color:white;
 	}
 }

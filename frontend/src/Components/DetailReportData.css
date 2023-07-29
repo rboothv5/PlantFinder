@@ -23,6 +23,78 @@
 	color:#181825;
 }
 
+.iconIdentifiedImageDark{
+    color: white;
+    cursor: pointer;
+}
+
+.iconIdentifiedImageLight{
+    color: #181825;
+    cursor: pointer;
+}
+
+.iconIdentifiedImageLocationDark{
+    color: white;
+    cursor: pointer;
+}
+
+.iconIdentifiedImageLocationLight{
+    color: #181825;
+    cursor: pointer;
+}
+
+.DetailReportDark td{
+    background-color: #5b5d5f;
+    color:white;
+}
+
+.DetailReportLight td{
+    background-color:#6bb7da;
+    color: #181825;
+}
+
+@media screen and (max-width: 2560px) and (max-height: 1600px){
+	
+	.DetailReport th{
+		font-size:30px;
+	}
+	
+	.DetailReport td{
+		font-size:26px;
+	}
+	
+	.DetailReport .tdDescriptionDark, 
+	.DetailReport .tdDescriptionLight{
+		text-align: justify;
+		padding-left:10px;
+		padding-right:10px;
+	}
+
+	.IdentifiedImageDark, 
+	.IdentifiedImageLight{
+		background: transparent;
+		border: none !important;
+	}
+
+	.IdentifiedImageLocationDark, 
+	.IdentifiedImageLocationLight{
+		background: transparent;
+		border: none !important;
+	}
+	
+	.DetailReportDark .tdIdentifiedImageDark, 
+	.DetailReportDark .tdIdentifiedImageLocationDark{
+		text-align: center;
+		padding-left:0px;
+	}
+
+	.DetailReportLight .tdIdentifiedImageLight, 
+	.DetailReportLight .tdIdentifiedImageLocationLight{
+		text-align: center;
+		padding-left:0px;
+	}
+}
+
 @media screen and (max-width: 1920px) and (max-height: 1080px){
 	
 	.DetailReport th{
@@ -50,36 +122,6 @@
 	.IdentifiedImageLocationLight{
 		background: transparent;
 		border: none !important;
-	}
-
-	.iconIdentifiedImageDark{
-		color: white;
-		cursor: pointer;
-	}
-
-	.iconIdentifiedImageLight{
-		color: #181825;
-		cursor: pointer;
-	}
-
-	.iconIdentifiedImageLocationDark{
-		color: white;
-		cursor: pointer;
-	}
-
-	.iconIdentifiedImageLocationLight{
-		color: #181825;
-		cursor: pointer;
-	}
-
-	.DetailReportDark td{
-		background-color: #5b5d5f;
-		color:white;
-	}
-
-	.DetailReportLight td{
-		background-color:#6bb7da;
-		color: #181825;
 	}
 	
 	.DetailReportDark .tdIdentifiedImageDark, 
@@ -115,33 +157,6 @@
 	.IdentifiedImageLocationLight{
 		background: transparent;
 		border: none;
-	}
-
-	 .iconIdentifiedImageDark{
-		position:relative;
-		color: white;
-		cursor: pointer;
-	}
-
-	 .iconIdentifiedImageLight{
-		position:relative;
-		color: #181825;
-		cursor: pointer;
-	}
-
-	 .iconIdentifiedImageLocationDark{
-		color: white;
-		cursor: pointer;
-	}
-
-	 .iconIdentifiedImageLocationLight{
-		color: #181825;
-		cursor: pointer;
-	}
-	
-	.DetailReportDark td{
-		background-color:rgb(74, 82, 88);
-		color:white;
 	}
 
 	.DetailReport .tdDescriptionDark, 

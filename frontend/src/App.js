@@ -257,13 +257,12 @@ export default function App() {
 					{SummaryReportVisible && (<ModalSummaryReport/>)}
 				
 					<p className={DarkMode ? "lblImagePreviewDark" : "lblImagePreviewLight"}>Preview</p>
-				
 					<div className={DarkMode ? "imagePreviewDark" : "imagePreviewLight"}>
 						{(!UserImageLoaded && <div className={DarkMode ? "iconImagePreviewDark" : "iconImagePreviewLight"}><Icon size={42} icon={ic_image_not_supported_outline} /></div>)}
 						{(UserImageLoaded && <img src={ImagePreview} className="imgPreview" alt="" width="100%" height="100%"/>	)}
 					</div>
-					<p className={DarkMode ? "lblGPSLocationDark" : "lblGPSLocationLight"}>Location</p>
-				
+				    
+                    <p className={DarkMode ? "lblGPSLocationDark" : "lblGPSLocationLight"}>Location</p>
 					<div className={DarkMode ? "GoogleMapsContainerDark" : "GoogleMapsContainerLight"}>
 						{(!UserImageLoaded && !GPSDataValid && <div className={DarkMode ? "iconGPSDataDark" : "iconGPSDataLight"}><Icon size={42} icon={ic_location_off_outline} /></div>)}
 						{(UserImageLoaded && !GPSDataValid && <div className={DarkMode ? "iconGPSDataDark" : "iconGPSDataLight"}><Icon size={42} icon={ic_location_off_outline} /></div>)}

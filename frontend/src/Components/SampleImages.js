@@ -39,7 +39,8 @@ export default function SampleImages(){
 		<div className="SampleImagesContainer">
 			
 			<ul>
-				{Error && (
+                <p className={DarkMode ? "lblSampleImageInstructionDark" : "lblSampleImageInstructionLight"}>&#40;Drag and Drop to view&#41;</p>
+                {Error && (
 					<>
 						<Icon className="iconError" size={60} icon={ic_error_outline_outline} />
 						<p className={DarkMode ? "SampleImageErrorDark" : "SampleImageErrorLight"}>Error retrieving sample images</p>

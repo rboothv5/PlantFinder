@@ -3,104 +3,193 @@
 		transform: rotate(1turn)
 	}
 }
-.GetRecentIdentifications{
-	position: relative;
-	display:flex;
-	top:34%;
-	text-align: center;
-}
 
-.GetRecentIdentifications::after{
-	content:"";
-	width:60px;
-	height:60px;
-	margin: auto;
-	border: 5px solid #6EB6FF;
-	border-top-color: #393E46;
-	border-right-color: #393E46;
-	border-bottom-color: #393E46;
-	border-radius: 50%;
-	animation:loading 0.65s linear infinite
-}
+@media screen and ((max-width: 2560px) and (max-height: 1600px)), ((max-width: 2560px) and (max-height: 1440px)){
 
-.GetIdentifications{
-	position: relative;
-	display:flex;
-	top:41%;
-	text-align: center;
-	z-index: 1;
-}
+    .GetIdentifications{
+        position: relative;
+        display:flex;
+        top:41%;
+        text-align: center;
+        z-index: 1;
+    }
+    
+    .GetIdentifications::after{
+        content:"";
+        width:120px;
+        height:120px;
+        margin: auto;
+        border: 8px solid #6EB6FF;
+        border-top-color: #576b67;
+        border-right-color: #576b67;
+        border-bottom-color: #576b67;
+        border-radius: 50%;
+        animation:loading 0.65s linear infinite
+    }
+    
+    .GetIdentifiedImage{
+        position: relative;
+        display:flex;
+        top:34%;
+        text-align: center;
+        z-index: 1;
+    }
+    
+    .GetIdentifiedImage::after{
+        content:"";
+        width:60px;
+        height:60px;
+        margin: auto;
+        border: 5px solid #6EB6FF;
+        border-top-color: #576b67;
+        border-right-color: #576b67;
+        border-bottom-color: #576b67;
+        border-radius: 50%;
+        animation:loading 0.65s linear infinite
+    }
+    
+    .SaveRecord{
+        position: relative;
+        display:flex;
+        top:-30%;
+        z-index: 2;
+    }
+    
+    .SaveRecord::after{
+        content:"";
+        width:65px;
+        height:65px;
+        margin: auto;
+        border: 5px solid #6EB6FF;
+        border-top-color: #576b67;
+        border-right-color: #576b67;
+        border-bottom-color: #576b67;
+        border-radius: 50%;
+        animation:loading 0.65s linear infinite
+    }
+    
+    .DeleteRecord{
+        position: absolute;
+        display:flex;
+        top:10.5%;
+        z-index: 2;
+    }
+    
+    .DeleteRecord::after{
+        content:"";
+        width:65px;
+        height:65px;
+        margin: auto;
+        border: 5px solid #6EB6FF;
+        border-top-color: #576b67;
+        border-right-color: #576b67;
+        border-bottom-color: #576b67;
+        border-radius: 50%;
+        animation:loading 0.65s linear infinite
+    }
+    }
 
-.GetIdentifications::after{
-	content:"";
-	width:70px;
-	height:70px;
-	margin: auto;
-	border: 5px solid #6EB6FF;
-	border-top-color: #576b67;
-	border-right-color: #576b67;
-	border-bottom-color: #576b67;
-	border-radius: 50%;
-	animation:loading 0.65s linear infinite
-}
+@media screen and ((max-width: 1920px) and (max-height: 1080px)), ((max-width: 1366px) and (max-height: 768px)){
 
-.GetIdentifiedImage{
-	position: relative;
-	display:flex;
-	top:34%;
-	text-align: center;
-	z-index: 1;
-}
+    .GetRecentIdentifications{
+        position: relative;
+        display:flex;
+        top:34%;
+        text-align: center;
+    }
 
-.GetIdentifiedImage::after{
-	content:"";
-	width:60px;
-	height:60px;
-	margin: auto;
-	border: 5px solid #6EB6FF;
-	border-top-color: #576b67;
-	border-right-color: #576b67;
-	border-bottom-color: #576b67;
-	border-radius: 50%;
-	animation:loading 0.65s linear infinite
-}
+    .GetRecentIdentifications::after{
+        content:"";
+        width:60px;
+        height:60px;
+        margin: auto;
+        border: 5px solid #6EB6FF;
+        border-top-color: #393E46;
+        border-right-color: #393E46;
+        border-bottom-color: #393E46;
+        border-radius: 50%;
+        animation:loading 0.65s linear infinite
+    }
 
-.SaveRecord{
-	position: relative;
-	display:flex;
-	top:-30%;
-	z-index: 2;
-}
+    .GetIdentifications{
+        position: relative;
+        display:flex;
+        top:41%;
+        text-align: center;
+        z-index: 1;
+    }
 
-.SaveRecord::after{
-	content:"";
-	width:65px;
-	height:65px;
-	margin: auto;
-	border: 5px solid #6EB6FF;
-	border-top-color: #576b67;
-	border-right-color: #576b67;
-	border-bottom-color: #576b67;
-	border-radius: 50%;
-	animation:loading 0.65s linear infinite
-}
+    .GetIdentifications::after{
+        content:"";
+        width:70px;
+        height:70px;
+        margin: auto;
+        border: 5px solid #6EB6FF;
+        border-top-color: #576b67;
+        border-right-color: #576b67;
+        border-bottom-color: #576b67;
+        border-radius: 50%;
+        animation:loading 0.65s linear infinite
+    }
 
-.DeleteRecord{
-	position: absolute;
-	display:flex;
-	top:10.5%;
-	z-index: 2;
-}
+    .GetIdentifiedImage{
+        position: relative;
+        display:flex;
+        top:34%;
+        text-align: center;
+        z-index: 1;
+    }
 
-.DeleteRecord::after{
-	content:"";
-	width:65px;
-	height:65px;
-	margin: auto;
-	border: 5px solid #6EB6FF;
-	border-top-color: #576b67;
-	border-right-color: #576b67;
-	border-bottom-color: #576b67;
-	border-radius: 50%;
-	animation:loading 0.65s linear infinite
+    .GetIdentifiedImage::after{
+        content:"";
+        width:60px;
+        height:60px;
+        margin: auto;
+        border: 5px solid #6EB6FF;
+        border-top-color: #576b67;
+        border-right-color: #576b67;
+        border-bottom-color: #576b67;
+        border-radius: 50%;
+        animation:loading 0.65s linear infinite
+    }
+
+    .SaveRecord{
+        position: relative;
+        display:flex;
+        top:-30%;
+        z-index: 2;
+    }
+
+    .SaveRecord::after{
+        content:"";
+        width:65px;
+        height:65px;
+        margin: auto;
+        border: 5px solid #6EB6FF;
+        border-top-color: #576b67;
+        border-right-color: #576b67;
+        border-bottom-color: #576b67;
+        border-radius: 50%;
+        animation:loading 0.65s linear infinite
+    }
+
+    .DeleteRecord{
+        position: absolute;
+        display:flex;
+        top:10.5%;
+        z-index: 2;
+    }
+
+    .DeleteRecord::after{
+        content:"";
+        width:65px;
+        height:65px;
+        margin: auto;
+        border: 5px solid #6EB6FF;
+        border-top-color: #576b67;
+        border-right-color: #576b67;
+        border-bottom-color: #576b67;
+        border-radius: 50%;
+        animation:loading 0.65s linear infinite
+    }
 }
