@@ -172,19 +172,12 @@
         border-top-right-radius: 15px; 
     }
         
-    .lblHeadingDark{
-        font-size: 38px;
-        color:white;
-        padding-top:6px;
-        text-align: center;
-    }
-        
+    .lblHeadingDark,
     .lblHeadingLight{
-        font-size: 32px;
-        color:#181825;
-        text-align: center;
+        font-size: 42px;
         font-weight: bold;
-        padding-top: 4px;
+        padding-top:2px;
+        text-align: center;
     }
         
     .modalOuterDark, 
@@ -351,10 +344,11 @@
         border-top-right-radius: 15px; 
     }
         
-    .lblHeadingDark{
-        font-size: 38px;
-        color:white;
-        padding-top:6px;
+    .lblHeadingDark,
+    .lblHeadingLight{
+        font-size: 42px;
+        font-weight: bold;
+        padding-top:2px;
         text-align: center;
     }
 }
