@@ -145,15 +145,15 @@
 	.iconHistoryLight i{
 		position:absolute;
 		top:3%;
-		left:10%;
+		left:13%;
 	}
 		
 	.RecentSearchesHeadingDark, 
 	.RecentSearchesHeadingLight{
 		position: absolute;
-		top:-0.4%;
-		font-size: 46px;
-		left:23%;
+		top:0.2%;
+		font-size: 42px;
+		left:26%;
 	}
 	
 	.hdrUnderlineDark, 
@@ -302,15 +302,15 @@
 	.iconHistoryLight i{
 		position:absolute;
 		top:2.7%;
-		left:13%;
+		left:16%;
 	}
 
     .RecentSearchesHeadingDark, 
 	.RecentSearchesHeadingLight{
 		position: absolute;
-		top:-0.3%;
-		font-size: 40px;
-		left:28%;
+		top:0%;
+		font-size: 38px;
+		left:29%;
 	}
 
 	.RecentSearchesImage{
