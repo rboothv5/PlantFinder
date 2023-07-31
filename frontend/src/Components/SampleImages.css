@@ -242,3 +242,63 @@
 		font-size: 10px;
 	}
 }
+
+@media screen and (max-width: 1280px) and (max-height: 720px){
+	
+    .SampleImagesContainer{
+       position: relative;
+       overflow-y: scroll;
+       height:25vh;
+       padding-right:22%;
+   }
+   
+    .iconError{
+       position: relative;
+       top:8vh;
+   }
+
+    .SampleImageErrorDark, 
+    .SampleImageErrorLight{
+       position: relative;
+       display: inline-block;
+       font-size: 13px;
+       top:8vh;
+   }
+
+   .SampleImage{
+       width:7vw;
+       height:12vh;
+       border-radius: 15px;
+       cursor: pointer;
+   }	
+   
+   .lblSampleImageInstructionDark,
+   .lblSampleImageInstructionLight{
+       position: relative;
+       top:0vh;
+       font-size: 12px;
+   }
+
+   .SampleImagesContainer ul{
+       text-align: center;
+   }
+       
+   .liSampleImages {
+       display: inline-block;
+       padding-bottom:10%;
+   }
+   
+   .SampleImage:hover{
+       width:9vw;
+       height:17vh;
+       left:-0.5vw;
+   }
+
+   .PlantNameDark, 
+   .PlantNameLight{
+       position:relative;
+       text-align: center;
+       top:0.5vh;
+       font-size: 12px;
+   }
+}
