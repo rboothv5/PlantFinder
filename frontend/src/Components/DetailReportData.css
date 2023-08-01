@@ -95,6 +95,49 @@
 	}
 }
 
+@media screen and (max-width: 1920px) and (max-height: 1200px){
+	
+	.DetailReport th{
+		font-size:24px;
+	}
+	
+	.DetailReport td{
+		font-size:20px;
+	}
+	
+	.DetailReport .tdDescriptionDark, 
+	.DetailReport .tdDescriptionLight{
+		text-align: justify;
+		padding-left:10px;
+		padding-right:10px;
+	}
+
+	.IdentifiedImageDark, 
+	.IdentifiedImageLight{
+		background: transparent;
+		border: none !important;
+	}
+
+	.IdentifiedImageLocationDark, 
+	.IdentifiedImageLocationLight{
+		background: transparent;
+		border: none !important;
+	}
+	
+	.DetailReportDark .tdIdentifiedImageDark, 
+	.DetailReportDark .tdIdentifiedImageLocationDark{
+		text-align: center;
+		padding-left:0px;
+	}
+
+	.DetailReportLight .tdIdentifiedImageLight, 
+	.DetailReportLight .tdIdentifiedImageLocationLight{
+		text-align: center;
+		padding-left:0px;
+	}
+}
+
+
 @media screen and (max-width: 1920px) and (max-height: 1080px){
 	
 	.DetailReport th{

@@ -394,6 +394,159 @@
 	} 
 }
 
+@media screen and (max-width: 1920px) and (max-height: 1200px){
+	 
+    .RecentSearches{
+        text-align: center;
+        position:relative;
+        top:10%;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        width:92%;
+    }
+
+	.iconHistoryDark i, 
+	.iconHistoryLight i{
+		position:absolute;
+		top:3%;
+		left:12%;
+	}
+		
+	.RecentSearchesHeadingDark, 
+	.RecentSearchesHeadingLight{
+		position: absolute;
+		top:1%;
+		font-size: 34px;
+		left:27%;
+	}
+	
+	.hdrUnderlineDark, 
+	.hdrUnderlineLight{
+		position:relative;
+		margin: auto;
+		width: 85%;
+		height:0.5%;
+		top:8%;
+	}
+
+	.iconRecentSearchesError{
+		position: relative;
+		top:40vh;
+	}
+
+	.lblRecentSearchesErrorDark, 
+	.lblRecentSearchesErrorLight{
+		position: relative;
+		font-size: 20px;
+		top:40vh;
+	}
+
+	.RecentSearchesListItemPlaceHolderDark, 
+	.RecentSearchesListItemPlaceHolderLight,
+	.RecentSearchesListItemDark, 
+	.RecentSearchesListItemLight{
+		position:relative;
+		height:17vh;
+		margin-top: 15%;
+		border:none;
+		border-radius:15px;
+		list-style-type: none;
+		padding-top:1px;
+	}
+
+	.RecentSearchesListItemPlaceHolderDark, 
+	.RecentSearchesListItemPlaceHolderLight{	
+		top:-2vh;
+	}
+
+	.RecentSearchesListItemDark, 
+	.RecentSearchesListItemLight{	
+		top:-66.8vh;
+	}
+
+	.RecentSearchesImage{
+		position: absolute;
+		padding: 10px;
+		left:0vw;
+		top:0vh;
+		width:60%;
+		height:100%;
+		border-radius: 25px;
+	}
+		
+	.lblRecentSearchesPlantDark, 
+	.lblRecentSearchesPlantLight{
+		position:relative;
+		font-size: 16px;
+		left:25.5%;
+		top:1%;
+		font-weight:bold;
+	}
+
+	.RecentSearchesPlantDark, 
+	.RecentSearchesPlantLight{
+		position:relative;
+		font-size: 16px;
+		top:-6%;
+		left:61%;
+		width:35%;
+		text-align: left;
+		padding:3px;
+	}
+
+	.lblRecentSearchesScoreDark, 
+	.lblRecentSearchesScoreLight{
+		position:relative;
+		font-size: 16px;
+		left:16.5%;
+		top:-5%;
+		font-weight:bold;
+	}
+
+	.RecentSearchesScoreDark, 
+	.RecentSearchesScoreLight{
+		position:relative;
+		font-size: 16px;
+		top:-12%;
+		left:61%;
+		width:35%;
+		text-align: left;
+		padding:3px;
+	}	
+
+	.lblRecentSearchesDateDark, 
+	.lblRecentSearchesDateLight{
+		position:relative;
+		font-size: 16px;
+		left:22%;
+		top:-11%;
+		font-weight:bold;
+	}
+
+	.RecentSearchesDateDark, 
+	.RecentSearchesDateLight{
+		position:relative;
+		font-size: 16px;
+		top:-18%;
+		left:61%;
+		width:35%;
+		text-align: left;
+		padding:3px;
+	}
+
+	.lblNoSearchDataDark, 
+	.lblNoSearchDataLight{
+		position:relative;
+		font-size: 16px;
+		top:42%;
+		font-weight: bold;
+		margin:auto;
+		width:35%;
+	}
+}
+
+
 @media screen and (max-width: 1920px) and (max-height: 1080px){
 	 
     .RecentSearches{

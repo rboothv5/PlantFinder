@@ -250,6 +250,115 @@ label {
     } 
 }
 
+@media screen and (max-width: 1920px) and (max-height: 1200px){
+	
+	.AddUserInformationContainerDark, 
+	.AddUserInformationContainerLight {
+		top:0vh;
+		position: relative;
+		height:21%;
+		margin:auto;
+		width:35%;
+		border-radius: 15px;
+	}
+
+	.AddUserInformationDetailDark, 
+	.AddUserInformationDetailLight{
+		padding-top:10px;
+		position: relative;
+		height:2%;
+		top:-2vh;
+	}
+
+	.lblUserInformationDark, 
+	.lblUserInformationLight{
+		position: relative;
+		text-align: center;
+		font-size:26px;
+		height:4vh;
+		font-weight:bold;
+		padding-top:6px;
+		border-top-left-radius: 15px;
+		border-top-right-radius: 15px;
+		width:100%;
+	}
+	 
+	.lblFirstnameDark, 
+	.lblFirstnameLight {
+		position:relative;
+		font-size: 18px;
+		left:4%;
+		width: 20%;
+		top:0vh;
+	}
+	
+	.dataFirstnameDark, 
+	.dataFirstnameLight {
+		position: relative;
+		left:33%;
+		font-size: 18px;
+		top:-2.5vh;
+	}
+
+	.inputFirstnameDark, 
+	.inputFirstnameLight,
+	.inputSurnameDark, 
+	.inputSurnameLight{
+		width: 60%;
+		border: none;
+		padding:4px;
+		font-size: 18px;
+		border-radius:4px;
+	}
+
+	.lblSurnameDark, 
+	.lblSurnameLight {
+		position:relative;
+		font-size: 18px;
+		left:7%;
+		width: 20%;
+		top:-1.5vh;
+	}
+	
+	.dataSurnameDark, 
+	.dataSurnameLight {
+		position: relative;
+		left:33%;
+		padding-top:3px;
+		top:-4.5vh;
+	}
+
+	.lblCommentsDark, 
+	.lblCommentsLight {
+		position:relative;
+		font-size: 18px;
+		left:2%;
+		text-align: right;
+		width: 20%;
+		top:-3.5vh;
+	}
+	
+	.dataCommentsDark, 
+	.dataCommentsLight {
+		position: relative;
+		left:33%;
+		padding-top:2px;
+		top:-6.5vh;
+		height:10%;
+	}
+
+	.inputCommentsDark, 
+	.inputCommentsLight{
+		width: 60%;
+		height:6vh;
+		font-family: 'Roboto';
+		border: none;
+		resize:none;
+		padding:4px;
+		font-size: 18px;
+		border-radius:4px;
+	}
+}
 
 @media screen and (max-width: 1920px) and (max-height: 1080px){
 	

@@ -390,6 +390,174 @@
 
 }
 
+@media screen and (max-width: 1920px) and (max-height: 1200px){
+	
+	.modalOuterDark, 
+	.modalOuterLight{
+		display:inline-flexbox;
+		height: 95%;
+		top:0%;
+		width:50%;
+		position: relative;
+		left:23%;
+		border-radius: 15px;
+	}	
+	
+    .modalGetPredictionsHeaderDark, 
+    .modalGetPredictionsHeaderLight{
+        position:relative;
+        width:100%;
+        height:60px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px; 
+    }
+    
+    .lblHeadingDark{
+        font-size: 38px;
+        color:white;
+        padding-top:6px;
+        text-align: center;
+    }
+    
+    .modalOuterDark .iconGetIdentificationsError, 
+	.modalOuterLight .iconGetIdentificationsError{
+		position: relative;
+		left:46%;
+		top:26vh;
+	}
+
+	.modalOuterDark .lblGetIdentificationsErrorDark, 
+	.modalOuterLight .lblGetIdentificationsErrorLight{
+		position: relative;
+		font-size: 22px;
+		text-align: center;
+		top:25vh;
+	}
+	
+	.modalDataDark, 
+	.modalDataLight{
+		position: relative;
+		height:70%;
+		overflow-y:auto;
+	}
+
+	.Identifications{
+		position:relative;
+		top:-1.5vh;
+	}
+
+	.modalData ul{ 
+		position: relative;
+		overflow-y: scroll;
+	}
+
+	.IdentificationListOuterDark, 
+	.IdentificationListOuterLight{
+		position:relative;
+		height:15.5vh;
+		border-radius:10px;
+		width:95%;
+		list-style-type: none;
+		margin-left:2.5%;
+		margin-top: 5.5vh;
+	}
+
+
+    .lblReferencePlantNameDark, 
+	.lblReferencePlantNameLight{
+		position: absolute;
+		left:24%;
+		top:-2%;
+		font-size: 18px;
+		font-weight: bold;
+	}	
+
+	.ReferencePlantNameDark, 
+	.ReferencePlantNameLight{
+		position: absolute;
+		width:43%;
+		left:36%;
+		top:-2%;
+		font-size: 18px;
+		padding:4px 7px 4px 7px;
+		border-radius:4px;
+		text-align: left;
+	}	
+
+	.lblDescriptionDark, 
+	.lblDescriptionLight{
+		position: absolute;
+		left:24%;
+		text-align: right;
+		top:23%;
+		font-size: 18px;
+		font-weight: bold;
+	}	
+
+	.DescriptionDark, 
+	.DescriptionLight{
+		position: absolute;
+		left:36%;
+		top:23%;
+		height:61%;
+		font-size: 18px;
+		padding:4px 7px 4px 7px;
+		border-radius:4px;
+		width:43%;
+		text-align: justify;
+		overflow:auto;
+	}
+
+	.ThumbnailPlantImage{
+		position: absolute;
+		left:1%;
+		top:0.8vh;
+		width:20%;
+		height:90%;
+		border-radius: 15px;
+	}
+
+	.saveIdentificationsDarkEnabled, 
+	.saveIdentificationsDarkDisabled, 
+	.saveIdentificationsLightEnabled, 
+	.saveIdentificationsLightDisabled,
+	.closeIdentificationsDark,
+	.closeIdentificationsLight{
+		position:relative;
+		cursor:pointer;
+		top:-3%;
+		border: none;
+		padding: 4px 4px 4px 4px;
+		border-radius: 40px;	
+		height:3%;
+		width:10%;
+		font-size: 18px;
+		
+	}
+
+	.saveIdentificationsDarkEnabled,
+	.saveIdentificationsDarkDisabled,
+    .saveIdentificationsLightEnabled,
+	.saveIdentificationsLightDisabled{
+	    left:74%;
+	}
+
+	.closeIdentificationsDark,
+    .closeIdentificationsLight{
+	    left:76%;
+	}
+
+	.closeModalDark, 
+	.closeModalLight{
+		position:absolute;
+		top: 0.5%;
+		left:96.5%;
+		font-size: 26px;
+		border: none;
+		cursor: pointer;
+	}
+}
+
 
 @media screen and (max-width: 1920px) and (max-height: 1080px){
 	
