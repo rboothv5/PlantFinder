@@ -336,7 +336,9 @@
 
 
 
-@media screen and (max-width: 1920px) and (max-height: 1080px){
+
+
+@media screen and (max-width: 1920px) and (max-height: 1200px){
 
     .fileUploadContainer{
         position: relative;
@@ -357,8 +359,8 @@
 
     .MainHeader{
         position: relative;
-        left:20.5%;
-        top:2vh;
+        left:20%;
+        top:3vh;
     }
 
     #fileUploadLabelDark, 
@@ -498,7 +500,7 @@
     }
 }
 
-@media screen and (max-width: 1920px) and (max-height: 1200px){
+@media screen and (max-width: 1920px) and (max-height: 1080px){
 
     .fileUploadContainer{
         position: relative;
@@ -520,7 +522,7 @@
     .MainHeader{
         position: relative;
         left:20.5%;
-        top:4vh;
+        top:2vh;
     }
 
     #fileUploadLabelDark, 
@@ -540,7 +542,7 @@
     .lblHeaderTitleDark, 
     .lblHeaderTitleLight{
         position:absolute;
-        left:17%;
+        left:16.5%;
         font-size: 80px;
         top:3vh;
         margin: auto;
@@ -634,7 +636,7 @@
     .lblGPSLocationDark, 
     .lblGPSLocationLight{
         position:relative;
-        top:19vh;
+        top:17.5vh;
         left:60%;
         font-weight: bold;
         width:4.5%;
@@ -644,11 +646,11 @@
     .lblImagePreviewDark, 
     .lblImagePreviewLight{
         position:relative;
-        top:23vh;
+        top:22vh;
         left:33%;
         font-weight: bold;
         width:4%;
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .iconImagePreviewDark,
