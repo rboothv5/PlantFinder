@@ -88,7 +88,7 @@ label {
     .lblFirstnameLight {
         position:relative;
         font-size: 20px;
-        left:5%;
+        left:7%;
         width: 20%;
         top:-1.8vh;
     }
@@ -116,7 +116,7 @@ label {
     .lblSurnameLight {
         position:relative;
         font-size: 20px;
-        left:7%;
+        left:9%;
         width: 20%;
         top:-3.2vh;
     }
@@ -133,7 +133,7 @@ label {
     .lblCommentsLight {
         position:relative;
         font-size: 20px;
-        left:3%;
+        left:5%;
         text-align: right;
         width: 20%;
         top:-5vh;
@@ -165,7 +165,7 @@ label {
             
     .AddUserInformationContainerDark, 
     .AddUserInformationContainerLight {
-        top:-1.2vh;
+        top:-0.5vh;
         position: relative;
         height:15%;
         margin:auto;
@@ -290,7 +290,7 @@ label {
 		font-size: 16px;
 		left:5%;
 		width: 20%;
-		top:0.5vh;
+		top:0vh;
 	}
 	
 	.dataFirstnameDark, 
@@ -298,7 +298,7 @@ label {
 		position: relative;
 		left:32%;
 		font-size: 16px;
-		top:-2.5vh;
+		top:-3vh;
 	}
 
 	.inputFirstnameDark, 
@@ -318,7 +318,7 @@ label {
 		font-size: 16px;
 		left:7%;
 		width: 20%;
-		top:-1.5vh;
+		top:-2vh;
 	}
 	
 	.dataSurnameDark, 
@@ -326,7 +326,7 @@ label {
 		position: relative;
 		left:32%;
 		padding-top:3px;
-		top:-4.5vh;
+		top:-5vh;
 	}
 
 	.lblCommentsDark, 
@@ -336,7 +336,7 @@ label {
 		left:3%;
 		text-align: right;
 		width: 20%;
-		top:-3.5vh;
+		top:-4vh;
 	}
 	
 	.dataCommentsDark, 
@@ -344,7 +344,7 @@ label {
 		position: relative;
 		left:32%;
 		padding-top:2px;
-		top:-6.5vh;
+		top:-7vh;
 		height:10%;
 	}
 
@@ -361,115 +361,6 @@ label {
 	}
 }
 
-@media screen and (max-width: 1366px) and (max-height: 768px){
-	
-	.AddUserInformationContainerDark, 
-    .AddUserInformationContainerLight {
-        top:-1vh;
-        position: relative;
-        height:22%;
-        margin:auto;
-        width:35%;
-        border-radius: 15px;
-    }
-	
-	.AddUserInformationDetailDark, 
-	.AddUserInformationDetailLight{
-		padding-top:10px;
-		position: relative;
-		height:2%;
-		top:-2vh;
-	}
-
-	.lblUserInformationDark, 
-	.lblUserInformationLight{
-		position: relative;
-		text-align: center;
-		font-size:16px;
-		height:4vh;
-		padding-top:4px;
-		border-top-left-radius: 15px;
-		font-weight:bold;
-		border-top-right-radius: 15px;
-		width:100%;
-	}
-	
-    .AddUserInformationContainerDark, 
-	.AddUserInformationContainerLight{
-		top:-1.5vh;
-		position: relative;
-		margin:auto;
-		width:40%;
-		border-radius: 15px;
-	}
-	
-	.lblFirstnameDark, 
-	.lblFirstnameLight {
-		position:relative;
-		font-size: 14px;
-		left:5%;
-		top:-1.5vh;
-	}
-
-	.dataFirstnameDark, 
-	.dataFirstnameLight {
-		position: relative;
-		left:35%;
-		top:-5.5vh;
-	}
-
-	.inputFirstnameDark, 
-	.inputFirstnameLight,
-	.inputSurnameDark, 
-	.inputSurnameLight{
-		width: 57%;
-		border: none;
-		padding:4px;
-		border-radius:4px;
-		font-size: 13px;
-	}
-
-    .lblSurnameDark, 
-	.lblSurnameLight {
-		position:relative;
-		font-size: 14px;
-		left:8%;
-		top:-5.5vh;
-	}
-	
-	.dataSurnameDark, 
-	.dataSurnameLight {
-		position: relative;
-		left:35%;
-		padding-top:6px;
-		top:-10vh;
-	}
-
-	.lblCommentsDark, 
-	.lblCommentsLight {
-		position:relative;
-		font-size: 14px;
-		left:3%;
-		text-align: right;
-		top:-10vh;
-	}
-	
-	.dataCommentsDark, 
-	.dataCommentsLight {
-		position: relative;
-		left:35%;
-		padding-top:6px;
-		top:-14.5vh;
-	}
-
-	.inputCommentsDark, 
-	.inputCommentsLight{
-		width: 57%;
-		height:6vh;
-		border-radius:4px;
-		font-size: 13px;
-	}
-}
 
 @media screen and (max-width: 1600px) and (max-height: 900px){
             
@@ -494,7 +385,7 @@ label {
 	.lblUserInformationLight{
 		position: relative;
 		text-align: center;
-		font-size:16px;
+		font-size:20px;
 		height:4vh;
 		padding-top:4px;
 		border-top-left-radius: 15px;
@@ -565,112 +456,13 @@ label {
 	.inputCommentsDark, 
 	.inputCommentsLight{
 		width: 57%;
-		height:6vh;
+		height:5vh;
 		border-radius:4px;
 		font-size: 13px;
 	}
 }
 
 
-@media screen and (max-width: 1280px) and (max-height: 720px){
-            
-    .AddUserInformationContainerDark, 
-    .AddUserInformationContainerLight {
-        top:-0.5vh;
-		position: relative;
-		margin:auto;
-		width:40%;
-		border-radius: 15px;
-    }
-	
-	.AddUserInformationDetailDark, 
-	.AddUserInformationDetailLight{
-		padding-top:10px;
-		position: relative;
-		height:2%;
-		top:0vh;
-	}
-
-	.lblUserInformationDark, 
-	.lblUserInformationLight{
-		position: relative;
-		text-align: center;
-		font-size:16px;
-		height:4vh;
-		padding-top:4px;
-		border-top-left-radius: 15px;
-		font-weight:bold;
-		border-top-right-radius: 15px;
-		width:100%;
-	}
-	
-    .lblFirstnameDark, 
-	.lblFirstnameLight {
-		position:relative;
-		font-size: 14px;
-		left:5%;
-		top:-3vh;
-	}
-
-	.dataFirstnameDark, 
-	.dataFirstnameLight {
-		position: relative;
-		left:35%;
-		top:-6.5vh;
-	}
-
-	.inputFirstnameDark, 
-	.inputFirstnameLight,
-	.inputSurnameDark, 
-	.inputSurnameLight{
-		width: 57%;
-		border: none;
-		padding:4px;
-		border-radius:4px;
-		font-size: 13px;
-	}
-
-    .lblSurnameDark, 
-	.lblSurnameLight {
-		position:relative;
-		font-size: 14px;
-		left:8%;
-		top:-5.5vh;
-	}
-	
-	.dataSurnameDark, 
-	.dataSurnameLight {
-		position: relative;
-		left:35%;
-		padding-top:6px;
-		top:-10vh;
-	}
-
-	.lblCommentsDark, 
-	.lblCommentsLight {
-		position:relative;
-		font-size: 14px;
-		left:3%;
-		text-align: right;
-		top:-9vh;
-	}
-	
-	.dataCommentsDark, 
-	.dataCommentsLight {
-		position: relative;
-		left:35%;
-		padding-top:6px;
-		top:-13.5vh;
-	}
-
-	.inputCommentsDark, 
-	.inputCommentsLight{
-		width: 57%;
-		height:6vh;
-		border-radius:4px;
-		font-size: 13px;
-	}
-}
 
 @media screen and (max-width: 1440px) and (max-height: 900px){
             
@@ -772,51 +564,52 @@ label {
 	}
 }
 
-@media screen and (max-width: 1280px) and (max-height: 720px){
-            
-    .AddUserInformationContainerDark, 
-    .AddUserInformationContainerLight {
-        top:-1vh;
+
+@media screen and (max-width: 1536px) and (max-height: 864px){
+	
+	.AddUserInformationContainerDark, 
+	.AddUserInformationContainerLight{
+		top:0vh;
 		position: relative;
 		margin:auto;
-		width:40%;
+		width:35%;
 		border-radius: 15px;
-    }
+	}
 	
 	.AddUserInformationDetailDark, 
 	.AddUserInformationDetailLight{
 		padding-top:10px;
 		position: relative;
 		height:2%;
-		top:0vh;
+		top:-2vh;
 	}
 
 	.lblUserInformationDark, 
 	.lblUserInformationLight{
 		position: relative;
 		text-align: center;
-		font-size:18px;
+		font-size:16px;
 		height:4vh;
-		padding-top:2px;
+		padding-top:4px;
 		border-top-left-radius: 15px;
 		font-weight:bold;
 		border-top-right-radius: 15px;
 		width:100%;
 	}
 	
-    .lblFirstnameDark, 
+	.lblFirstnameDark, 
 	.lblFirstnameLight {
 		position:relative;
 		font-size: 14px;
-		left:5%;
-		top:-3vh;
+		left:6%;
+		top:0vh;
 	}
 
 	.dataFirstnameDark, 
 	.dataFirstnameLight {
 		position: relative;
 		left:35%;
-		top:-6.5vh;
+		top:-3vh;
 	}
 
 	.inputFirstnameDark, 
@@ -835,7 +628,7 @@ label {
 		position:relative;
 		font-size: 14px;
 		left:8%;
-		top:-6vh;
+		top:-2.5vh;
 	}
 	
 	.dataSurnameDark, 
@@ -843,16 +636,16 @@ label {
 		position: relative;
 		left:35%;
 		padding-top:6px;
-		top:-10vh;
+		top:-6vh;
 	}
 
 	.lblCommentsDark, 
 	.lblCommentsLight {
 		position:relative;
 		font-size: 14px;
-		left:3%;
+		left:4%;
 		text-align: right;
-		top:-9vh;
+		top:-5.5vh;
 	}
 	
 	.dataCommentsDark, 
@@ -860,7 +653,7 @@ label {
 		position: relative;
 		left:35%;
 		padding-top:6px;
-		top:-13.5vh;
+		top:-9vh;
 	}
 
 	.inputCommentsDark, 
@@ -872,3 +665,203 @@ label {
 	}
 }
 
+@media screen and (max-width: 1366px) and (max-height: 768px){
+	
+	.AddUserInformationContainerDark, 
+	.AddUserInformationContainerLight{
+		top:0vh;
+		position: relative;
+		margin:auto;
+		width:40%;
+		border-radius: 15px;
+	}
+	
+	.AddUserInformationDetailDark, 
+	.AddUserInformationDetailLight{
+		padding-top:10px;
+		position: relative;
+		height:2%;
+		top:-2vh;
+	}
+
+	.lblUserInformationDark, 
+	.lblUserInformationLight{
+		position: relative;
+		text-align: center;
+		font-size:16px;
+		height:4vh;
+		padding-top:4px;
+		border-top-left-radius: 15px;
+		font-weight:bold;
+		border-top-right-radius: 15px;
+		width:100%;
+	}
+	
+	.lblFirstnameDark, 
+	.lblFirstnameLight {
+		position:relative;
+		font-size: 14px;
+		left:6%;
+		top:-0.5vh;
+	}
+
+	.dataFirstnameDark, 
+	.dataFirstnameLight {
+		position: relative;
+		left:35%;
+		top:-4vh;
+	}
+
+	.inputFirstnameDark, 
+	.inputFirstnameLight,
+	.inputSurnameDark, 
+	.inputSurnameLight{
+		width: 57%;
+		border: none;
+		padding:4px;
+		border-radius:4px;
+		font-size: 13px;
+	}
+
+    .lblSurnameDark, 
+	.lblSurnameLight {
+		position:relative;
+		font-size: 14px;
+		left:8%;
+		top:-3.5vh;
+	}
+	
+	.dataSurnameDark, 
+	.dataSurnameLight {
+		position: relative;
+		left:35%;
+		padding-top:6px;
+		top:-7.5vh;
+	}
+
+	.lblCommentsDark, 
+	.lblCommentsLight {
+		position:relative;
+		font-size: 14px;
+		left:4%;
+		text-align: right;
+		top:-6.5vh;
+	}
+	
+	.dataCommentsDark, 
+	.dataCommentsLight {
+		position: relative;
+		left:35%;
+		padding-top:6px;
+		top:-10.5vh;
+	}
+
+	.inputCommentsDark, 
+	.inputCommentsLight{
+		width: 57%;
+		height:5vh;
+		border-radius:4px;
+		font-size: 13px;
+	}
+}
+
+
+@media screen and (max-width: 1280px) and (max-height: 720px){
+            
+    .AddUserInformationContainerDark, 
+    .AddUserInformationContainerLight {
+        top:-0.5vh;
+		position: relative;
+		margin:auto;
+		width:40%;
+		border-radius: 15px;
+    }
+	
+	.AddUserInformationDetailDark, 
+	.AddUserInformationDetailLight{
+		padding-top:10px;
+		position: relative;
+		height:2%;
+		top:0vh;
+	}
+
+	.lblUserInformationDark, 
+	.lblUserInformationLight{
+		position: relative;
+		text-align: center;
+		font-size:16px;
+		height:4vh;
+		padding-top:4px;
+		border-top-left-radius: 15px;
+		font-weight:bold;
+		border-top-right-radius: 15px;
+		width:100%;
+	}
+	
+    .lblFirstnameDark, 
+	.lblFirstnameLight {
+		position:relative;
+		font-size: 13px;
+		left:5.5%;
+		top:-2.5vh;
+	}
+
+	.dataFirstnameDark, 
+	.dataFirstnameLight {
+		position: relative;
+		left:35%;
+		top:-6vh;
+	}
+
+	.inputFirstnameDark, 
+	.inputFirstnameLight,
+	.inputSurnameDark, 
+	.inputSurnameLight{
+		width: 57%;
+		border: none;
+		padding:4px;
+		border-radius:4px;
+		font-size: 13px;
+	}
+
+    .lblSurnameDark, 
+	.lblSurnameLight {
+		position:relative;
+		font-size: 13px;
+		left:8.5%;
+		top:-5vh;
+	}
+	
+	.dataSurnameDark, 
+	.dataSurnameLight {
+		position: relative;
+		left:35%;
+		padding-top:6px;
+		top:-9.5vh;
+	}
+
+	.lblCommentsDark, 
+	.lblCommentsLight {
+		position:relative;
+		font-size: 13px;
+		left:3.5%;
+		text-align: right;
+		top:-8.5vh;
+	}
+	
+	.dataCommentsDark, 
+	.dataCommentsLight {
+		position: relative;
+		left:35%;
+		padding-top:6px;
+		top:-13vh;
+	}
+
+	.inputCommentsDark, 
+	.inputCommentsLight{
+		width: 57%;
+		height:5vh;
+		border-radius:4px;
+		font-size: 13px;
+	}
+}

@@ -152,7 +152,7 @@
 	.RecentSearchesHeadingLight{
 		position: absolute;
 		top:0.2%;
-		font-size: 42px;
+		font-size: 44px;
 		left:26%;
 	}
 	
@@ -302,15 +302,15 @@
 	.iconHistoryLight i{
 		position:absolute;
 		top:2.7%;
-		left:16%;
+		left:10%;
 	}
 
     .RecentSearchesHeadingDark, 
 	.RecentSearchesHeadingLight{
 		position: absolute;
-		top:0%;
-		font-size: 38px;
-		left:29%;
+		top:-1%;
+		font-size: 46px;
+		left:24%;
 	}
 
 	.RecentSearchesImage{
@@ -546,165 +546,40 @@
 	}
 }
 
-@media screen and (max-width: 1366px) and (max-height: 768px){
-	
-	.iconHistoryDark i, 
-	.iconHistoryLight i{
-		position:absolute;
-		top:1.5%;
-		left:9%;
-	}
-	
-	.RecentSearchesHeadingDark, 
-	.RecentSearchesHeadingLight{
-		position: absolute;
-		top:-0.5%;
-		font-size: 24px;
-		left:28%;
-	}
 
-	.hdrUnderlineDark, 
-	.hdrUnderlineLight{
-		position:relative;
-		margin: auto;
-		width: 85%;
-		height:0.5%;
-		top:9%;
-	}
-	
-	.iconRecentSearchesError{
-		position: relative;
-		top:40vh;
-	}
-
-	.lblRecentSearchesErrorDark, 
-	.lblRecentSearchesErrorLight{
-		position: relative;
-		font-size: 16px;
-		top:40vh;
-	}
-
-	.RecentSearchesListItemPlaceHolderDark, 
-	.RecentSearchesListItemPlaceHolderLight,
-	.RecentSearchesListItemDark, 
-	.RecentSearchesListItemLight{
-		position:relative;
-		height:22vh;
-		margin-top: 15%;
-		border:none;
-		border-radius:15px;
-		list-style-type: none;
-	}
-
-	.RecentSearchesListItemPlaceHolderDark, 
-	.RecentSearchesListItemPlaceHolderLight{	
-		top:-1vh;
-	}
-
-	.RecentSearchesListItemDark, 
-	.RecentSearchesListItemLight{	
-		top:-85.5vh;
-	}
-
-	.RecentSearchesImage{
-		position: absolute;
-		padding: 8px;
-		left:0vw;
-		top:0vh;
-		width:60%;
-		height:100%;
-		border-radius: 25px;
-	}
-		
-	.lblRecentSearchesPlantDark, 
-	.lblRecentSearchesPlantLight{
-		position:relative;
-		font-size: 12px;
-		left:25%;
-		top:-1%;
-		font-weight: bold;
-	}
-
-	.RecentSearchesPlantDark, 
-	.RecentSearchesPlantLight{
-		position:relative;
-		font-size: 12px;
-		top:-9%;
-		left:60%;
-		width:36%;
-		padding-left:2px;
-		text-align: left;
-	}
-
-	.lblRecentSearchesScoreDark, 
-	.lblRecentSearchesScoreLight{
-		position:relative;
-		font-size: 12px;
-		left:16%;
-		top:-10%;
-		font-weight: bold;
-	}
-
-	.RecentSearchesScoreDark, 
-	.RecentSearchesScoreLight{
-		position:relative;
-		font-size: 12px;
-		top:-18%;
-		left:60%;
-		width:36%;
-		text-align: left;
-		padding:1px;
-	}	
-		
-	.lblRecentSearchesDateDark, 
-	.lblRecentSearchesDateLight{
-		position:relative;
-		font-size: 12px;
-		left:22%;
-		top:-17%;
-		font-weight: bold;
-	}
-
-	.RecentSearchesDateDark,
-	.RecentSearchesDateLight{
-		position:relative;
-		font-size: 12px;
-		top:-25%;
-		left:60%;
-		width:36%;
-		text-align: left;
-		padding:1px;
-	}
-
-	.lblNoSearchDataDark, 
-    .lblNoSearchDataDark{
-		position:relative;
-		font-size: 12px;
-		top:42%;
-		font-weight: bold;
-		margin:auto;
-		width:45%;
-	}
-}
-
-@media screen and (max-width: 1280px) and (max-height: 720px){
+@media screen and (max-width: 1536px) and (max-height: 864px){
 	
     .RecentSearches{
         text-align: center;
         position:relative;
-        top:12%;
+        top:21%;
         display: inline-block;
         margin: 0;
         padding: 0;
         width:92%;
     }
     
+    .iconHistoryDark i, 
+	.iconHistoryLight i{
+		position:absolute;
+		top:1.5%;
+		left:7%;
+	}
+	
+	.RecentSearchesHeadingDark, 
+	.RecentSearchesHeadingLight{
+		position: absolute;
+		top:-0.5%;
+		font-size: 28px;
+		left:25%;
+	}
+    
     .RecentSearchesListItemPlaceHolderDark, 
 	.RecentSearchesListItemPlaceHolderLight,
 	.RecentSearchesListItemDark, 
 	.RecentSearchesListItemLight{
 		position:relative;
-		height:21vh;
+		height:20vh;
 		margin-top: 15%;
 		border:none;
 		border-radius:15px;
@@ -713,12 +588,12 @@
 
 	.RecentSearchesListItemPlaceHolderDark, 
 	.RecentSearchesListItemPlaceHolderLight{	
-		top:-4vh;
+		top:-12.5vh;
 	}
 
 	.RecentSearchesListItemDark, 
 	.RecentSearchesListItemLight{	
-		top:-82.5vh;
+		top:-88vh;
 	}
 
 	.RecentSearchesImage{
@@ -731,76 +606,77 @@
 		border-radius: 25px;
 	}
 		
-	.lblRecentSearchesPlantDark, 
+    .lblRecentSearchesPlantDark, 
 	.lblRecentSearchesPlantLight{
 		position:relative;
-		font-size: 12px;
-		left:26%;
-		top:-1%;
-		font-weight: bold;
+		font-size: 15px;
+		left:27%;
+		top:-3%;
+		font-weight:bold;
 	}
 
 	.RecentSearchesPlantDark, 
 	.RecentSearchesPlantLight{
 		position:relative;
-		font-size: 12px;
-		top:-9%;
+		font-size: 15px;
+		top:-11%;
 		left:60%;
-		width:36%;
-		padding-left:2px;
+		width:35%;
 		text-align: left;
+		padding:3px;
 	}
 
 	.lblRecentSearchesScoreDark, 
 	.lblRecentSearchesScoreLight{
 		position:relative;
-		font-size: 12px;
+		font-size: 15px;
 		left:17%;
-		top:-10%;
-		font-weight: bold;
+		top:-13%;
+		font-weight:bold;
 	}
 
 	.RecentSearchesScoreDark, 
 	.RecentSearchesScoreLight{
 		position:relative;
-		font-size: 12px;
-		top:-18%;
+		font-size: 15px;
+		top:-22%;
 		left:60%;
-		width:36%;
+		width:35%;
 		text-align: left;
-		padding:1px;
+		padding:3px;
 	}	
-		
+
 	.lblRecentSearchesDateDark, 
 	.lblRecentSearchesDateLight{
 		position:relative;
-		font-size: 12px;
+		font-size: 15px;
 		left:23%;
-		top:-17%;
-		font-weight: bold;
+		top:-23%;
+		font-weight:bold;
 	}
 
-	.RecentSearchesDateDark,
+	.RecentSearchesDateDark, 
 	.RecentSearchesDateLight{
 		position:relative;
-		font-size: 12px;
-		top:-25%;
+		font-size: 15px;
+		top:-31%;
 		left:60%;
-		width:36%;
+		width:35%;
 		text-align: left;
-		padding:1px;
+		padding:3px;
 	}
 
 	.lblNoSearchDataDark, 
-    .lblNoSearchDataDark{
+	.lblNoSearchDataLight{
 		position:relative;
-		font-size: 12px;
+		font-size: 16px;
 		top:42%;
 		font-weight: bold;
 		margin:auto;
-		width:45%;
+		width:50%;
 	}
 }
+
 
 @media screen and (max-width: 1600px) and (max-height: 900px){
 	
@@ -1062,7 +938,9 @@
 	}
 }
 
-@media screen and (max-width: 1280px) and (max-height: 720px){
+
+
+@media screen and (max-width: 1366px) and (max-height: 768px){
 	
     .RecentSearches{
         text-align: center;
@@ -1085,138 +963,7 @@
 	.RecentSearchesHeadingLight{
 		position: absolute;
 		top:-0.5%;
-		font-size: 24px;
-		left:24%;
-	}
-    
-    .RecentSearchesListItemPlaceHolderDark, 
-	.RecentSearchesListItemPlaceHolderLight,
-	.RecentSearchesListItemDark, 
-	.RecentSearchesListItemLight{
-		position:relative;
-		height:20vh;
-		margin-top: 15%;
-		border:none;
-		border-radius:15px;
-		list-style-type: none;
-	}
-
-	.RecentSearchesListItemPlaceHolderDark, 
-	.RecentSearchesListItemPlaceHolderLight{	
-		top:-12.5vh;
-	}
-
-	.RecentSearchesListItemDark, 
-	.RecentSearchesListItemLight{	
-		top:-88vh;
-	}
-
-	.RecentSearchesImage{
-		position: absolute;
-		padding: 8px;
-		left:0vw;
-		top:0vh;
-		width:60%;
-		height:100%;
-		border-radius: 25px;
-	}
-		
-    .lblRecentSearchesPlantDark, 
-	.lblRecentSearchesPlantLight{
-		position:relative;
-		font-size: 12px;
-		left:27%;
-		top:-3%;
-		font-weight:bold;
-	}
-
-	.RecentSearchesPlantDark, 
-	.RecentSearchesPlantLight{
-		position:relative;
-		font-size: 12px;
-		top:-11%;
-		left:60%;
-		width:35%;
-		text-align: left;
-		padding:3px;
-	}
-
-	.lblRecentSearchesScoreDark, 
-	.lblRecentSearchesScoreLight{
-		position:relative;
-		font-size: 12px;
-		left:17%;
-		top:-13%;
-		font-weight:bold;
-	}
-
-	.RecentSearchesScoreDark, 
-	.RecentSearchesScoreLight{
-		position:relative;
-		font-size: 12px;
-		top:-21%;
-		left:60%;
-		width:35%;
-		text-align: left;
-		padding:3px;
-	}	
-
-	.lblRecentSearchesDateDark, 
-	.lblRecentSearchesDateLight{
-		position:relative;
-		font-size: 12px;
-		left:23%;
-		top:-22%;
-		font-weight:bold;
-	}
-
-	.RecentSearchesDateDark, 
-	.RecentSearchesDateLight{
-		position:relative;
-		font-size: 12px;
-		top:-30%;
-		left:60%;
-		width:35%;
-		text-align: left;
-		padding:3px;
-	}
-
-	.lblNoSearchDataDark, 
-	.lblNoSearchDataLight{
-		position:relative;
-		font-size: 16px;
-		top:42%;
-		font-weight: bold;
-		margin:auto;
-		width:50%;
-	}
-}
-
-
-@media screen and (max-width: 1536px) and (max-height: 864px){
-	
-    .RecentSearches{
-        text-align: center;
-        position:relative;
-        top:21%;
-        display: inline-block;
-        margin: 0;
-        padding: 0;
-        width:92%;
-    }
-    
-    .iconHistoryDark i, 
-	.iconHistoryLight i{
-		position:absolute;
-		top:1.5%;
-		left:7%;
-	}
-	
-	.RecentSearchesHeadingDark, 
-	.RecentSearchesHeadingLight{
-		position: absolute;
-		top:-0.5%;
-		font-size: 28px;
+		font-size: 26px;
 		left:25%;
 	}
     
@@ -1255,61 +1002,61 @@
     .lblRecentSearchesPlantDark, 
 	.lblRecentSearchesPlantLight{
 		position:relative;
-		font-size: 15px;
+		font-size: 14px;
 		left:27%;
-		top:-3%;
+		top:-4%;
 		font-weight:bold;
 	}
 
 	.RecentSearchesPlantDark, 
 	.RecentSearchesPlantLight{
 		position:relative;
-		font-size: 15px;
-		top:-11%;
+		font-size: 14px;
+		top:-13%;
 		left:60%;
 		width:35%;
 		text-align: left;
-		padding:3px;
+		padding:2px;
 	}
 
 	.lblRecentSearchesScoreDark, 
 	.lblRecentSearchesScoreLight{
 		position:relative;
-		font-size: 15px;
+		font-size: 14px;
 		left:17%;
-		top:-13%;
+		top:-14%;
 		font-weight:bold;
 	}
 
 	.RecentSearchesScoreDark, 
 	.RecentSearchesScoreLight{
 		position:relative;
-		font-size: 15px;
-		top:-22%;
+		font-size: 14px;
+		top:-23%;
 		left:60%;
 		width:35%;
 		text-align: left;
-		padding:3px;
+		padding:2px;
 	}	
 
 	.lblRecentSearchesDateDark, 
 	.lblRecentSearchesDateLight{
 		position:relative;
-		font-size: 15px;
-		left:23%;
-		top:-23%;
+		font-size: 14px;
+		left:24%;
+		top:-24%;
 		font-weight:bold;
 	}
 
 	.RecentSearchesDateDark, 
 	.RecentSearchesDateLight{
 		position:relative;
-		font-size: 15px;
-		top:-31%;
+		font-size: 14px;
+		top:-33%;
 		left:60%;
 		width:35%;
 		text-align: left;
-		padding:3px;
+		padding:2px;
 	}
 
 	.lblNoSearchDataDark, 
@@ -1322,3 +1069,135 @@
 		width:50%;
 	}
 }
+
+
+@media screen and (max-width: 1280px) and (max-height: 720px){
+	
+    .RecentSearches{
+        text-align: center;
+        position:relative;
+        top:12%;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        width:92%;
+    }
+    
+    .iconHistoryDark i, 
+	.iconHistoryLight i{
+		position:absolute;
+		top:1.5%;
+		left:6%;
+	}
+	
+	.RecentSearchesHeadingDark, 
+	.RecentSearchesHeadingLight{
+		position: absolute;
+		top:-0.5%;
+		font-size: 24px;
+		left:25%;
+	}
+
+    .RecentSearchesListItemPlaceHolderDark, 
+	.RecentSearchesListItemPlaceHolderLight,
+	.RecentSearchesListItemDark, 
+	.RecentSearchesListItemLight{
+		position:relative;
+		height:21vh;
+		margin-top: 15%;
+		border:none;
+		border-radius:15px;
+		list-style-type: none;
+	}
+
+	.RecentSearchesListItemPlaceHolderDark, 
+	.RecentSearchesListItemPlaceHolderLight{	
+		top:-4vh;
+	}
+
+	.RecentSearchesListItemDark, 
+	.RecentSearchesListItemLight{	
+		top:-82.5vh;
+	}
+
+	.RecentSearchesImage{
+		position: absolute;
+		padding: 8px;
+		left:0vw;
+		top:0vh;
+		width:60%;
+		height:100%;
+		border-radius: 25px;
+	}
+		
+	.lblRecentSearchesPlantDark, 
+	.lblRecentSearchesPlantLight{
+		position:relative;
+		font-size: 12px;
+		left:26%;
+		top:1%;
+		font-weight: bold;
+	}
+
+	.RecentSearchesPlantDark, 
+	.RecentSearchesPlantLight{
+		position:relative;
+		font-size: 12px;
+		top:-6%;
+		left:60%;
+		width:36%;
+		padding-left:2px;
+		text-align: left;
+	}
+
+	.lblRecentSearchesScoreDark, 
+	.lblRecentSearchesScoreLight{
+		position:relative;
+		font-size: 12px;
+		left:17%;
+		top:-7%;
+		font-weight: bold;
+	}
+
+	.RecentSearchesScoreDark, 
+	.RecentSearchesScoreLight{
+		position:relative;
+		font-size: 12px;
+		top:-14%;
+		left:60%;
+		width:36%;
+		text-align: left;
+		padding:1px;
+	}	
+		
+	.lblRecentSearchesDateDark, 
+	.lblRecentSearchesDateLight{
+		position:relative;
+		font-size: 12px;
+		left:23%;
+		top:-14%;
+		font-weight: bold;
+	}
+
+	.RecentSearchesDateDark,
+	.RecentSearchesDateLight{
+		position:relative;
+		font-size: 12px;
+		top:-21%;
+		left:60%;
+		width:36%;
+		text-align: left;
+		padding:1px;
+	}
+
+	.lblNoSearchDataDark, 
+    .lblNoSearchDataDark{
+		position:relative;
+		font-size: 12px;
+		top:42%;
+		font-weight: bold;
+		margin:auto;
+		width:45%;
+	}
+}
+
