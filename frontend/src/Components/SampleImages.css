@@ -145,7 +145,7 @@
     .lblSampleImageInstructionDark,
     .lblSampleImageInstructionLight{
         position: relative;
-        top:1vh;
+        top:0vh;
         font-size: 15px;
     }
 
