@@ -85,6 +85,13 @@
 		padding-left: 20px;
 	}
 
+    .SummaryReportRowDark .tdSelectSingleRecordEditDark,
+    .SummaryReportRowLight .tdSelectSingleRecordEditLight{
+        position:relative;
+        transform: scale(1.4);
+        padding-left:16px;
+    }
+
 	.inputBoxNamesDark, 
 	.inputBoxCommentsDark{
 		background-color: #7e8183;
