@@ -116,7 +116,7 @@ export default function EditableRow({EditFormData, HandleEditFormChange, EditID,
 				<button className="RecordActions" type="button" onClick={()=>HandleUpdateClick()}><div className={DarkMode ? "iconSaveDark" : "iconSaveLight"}><Icon size={24} icon={ic_save} /></div></button>
 			</td>
 			<td className="DataActionButtons">
-				<button className="RecordActionsDelete" type="button" onClick={()=>HandleDeleteClick()}><div className="iconDelete"><Icon size={28} icon={ic_delete_twotone} /></div></button>
+				
 			</td>
 		</tr>
 	)
