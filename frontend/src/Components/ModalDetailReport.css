@@ -427,12 +427,12 @@
 	.DetailReportTableHeaderCompareLight, 
 	.DetailReportTableHeaderPlantDark, 
 	.DetailReportTableHeaderPlantLight {
-	    width:8%;
+	    width:9%;
 	}
 
     .DetailReportTableHeaderScoreDark,
 	.DetailReportTableHeaderScoreLight{
-		width:6.5%;
+		width:8%;
 	}
    
     .DetailReportTableHeaderImageDateDark, 
@@ -454,7 +454,7 @@
    }
 }
 
-@media screen and (max-width: 1440px) and (max-height: 900px){
+@media screen and (max-width: 1536px) and (max-height: 864px){
 	
     .lblDetailReportHeaderDark, 
     .lblDetailReportHeaderLight {
@@ -473,7 +473,7 @@
 
     .DetailReportTableHeaderScoreDark,
 	.DetailReportTableHeaderScoreLight{
-		width:7.5%;
+		width:9%;
 	}
    
     .DetailReportTableHeaderImageDateDark, 
@@ -481,6 +481,48 @@
 	.DetailReportTableHeaderDateAddedDark,
 	.DetailReportTableHeaderDateAddedLight{
 		width:9%;
+	}
+
+   .closeModalDetailReportDark, 
+   .closeModalDetailReportLight{
+       position:absolute;
+       top: 0.4%;
+       left:97%;
+       font-size: 26px;
+       border: none;
+       cursor: pointer;
+       z-index: 1;
+   }
+}
+
+
+@media screen and (max-width: 1440px) and (max-height: 900px){
+	
+    .lblDetailReportHeaderDark, 
+    .lblDetailReportHeaderLight {
+       text-align: center;
+       font-weight: bold;
+       padding-top: 4px;
+       font-size: 28px;
+    }
+   
+    .DetailReportTableHeaderCompareDark, 
+	.DetailReportTableHeaderCompareLight, 
+	.DetailReportTableHeaderPlantDark, 
+	.DetailReportTableHeaderPlantLight {
+	    width:12%;
+	}
+
+    .DetailReportTableHeaderScoreDark,
+	.DetailReportTableHeaderScoreLight{
+		width:10%;
+	}
+   
+    .DetailReportTableHeaderImageDateDark, 
+	.DetailReportTableHeaderImageDateLight, 
+	.DetailReportTableHeaderDateAddedDark,
+	.DetailReportTableHeaderDateAddedLight{
+		width:12%;
 	}
 
    .closeModalDetailReportDark, 
@@ -586,4 +628,45 @@
 		text-align: center;
 		top:30vh;
 	}
+}
+
+@media screen and (max-width: 1280px) and (max-height: 720px){
+	
+    .lblDetailReportHeaderDark, 
+    .lblDetailReportHeaderLight {
+       text-align: center;
+       font-weight: bold;
+       padding-top: 4px;
+       font-size: 28px;
+    }
+   
+    .DetailReportTableHeaderCompareDark, 
+	.DetailReportTableHeaderCompareLight, 
+	.DetailReportTableHeaderPlantDark, 
+	.DetailReportTableHeaderPlantLight {
+	    width:10%;
+	}
+
+    .DetailReportTableHeaderScoreDark,
+	.DetailReportTableHeaderScoreLight{
+		width:9%;
+	}
+   
+    .DetailReportTableHeaderImageDateDark, 
+	.DetailReportTableHeaderImageDateLight, 
+	.DetailReportTableHeaderDateAddedDark,
+	.DetailReportTableHeaderDateAddedLight{
+		width:9%;
+	}
+
+   .closeModalDetailReportDark, 
+   .closeModalDetailReportLight{
+       position:absolute;
+       top: 0.4%;
+       left:97%;
+       font-size: 26px;
+       border: none;
+       cursor: pointer;
+       z-index: 1;
+   }
 }

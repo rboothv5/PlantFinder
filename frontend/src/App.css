@@ -876,14 +876,14 @@
     .UploadInstructions1Dark, 
     .UploadInstructions2Dark{
         position: relative;
-        font-size: 15px;
+        font-size: 16px;
         margin: auto;
     }
 
     .UploadInstructions1Light, 
     .UploadInstructions2Light{
         position: relative;
-        font-size: 15px;
+        font-size: 16px;
         margin: auto;
     }
 
@@ -903,7 +903,7 @@
         cursor: pointer;
         top:-85%;
         width:36%;
-        font-size: 15px;
+        font-size: 16px;
         border-radius: 40px;
         padding: 3px 5px 5px 5px;
     }
