@@ -4,12 +4,11 @@ import {UpdateData} from './ComponentFunctions'
 import {useDispatch, useSelector} from "react-redux"
 import {UpdateDataReady} from '../Redux/DataOperations'
 import {UpdateOperationRunning} from '../Redux/OperationRunning'
-import {SendIndividualRecordChecked, SendDeleteSelectedRecords, ShowModalDeleteRecord, SendDeleteHasRun, SendMessageRecordDelete} from '../Redux/DeleteRecord';
+import {SendIndividualRecordChecked, SendDeleteSelectedRecords} from '../Redux/DeleteRecord';
 import {SendOperationType} from '../Redux/DataOperations';
 import {SendMessageRecordSave, SendMessageRecordSaveStatus, ShowModalSaveRecord, SendMessageBoxTitle } from '../Redux/SaveRecord'
 import {Icon} from 'react-icons-kit'
 import {ic_save} from 'react-icons-kit/md/ic_save'
-import {ic_delete_twotone} from 'react-icons-kit/md/ic_delete_twotone'
 
 export default function EditableRow({EditFormData, HandleEditFormChange, EditID, Records}){
 	
@@ -18,19 +17,6 @@ export default function EditableRow({EditFormData, HandleEditFormChange, EditID,
 	
 	var SelectedRecords=[]
 	var SelectedRecordIndex
-	var RecordData={}
-	
-	function HandleDeleteClick(){
-		RecordData['IdentifiedPlant']=EditFormData.IdentifiedPlant
-		RecordData['FileName']=EditID
-		SelectedRecords.push("Add")
-		SelectedRecords.push(RecordData)
-		dispatch(SendDeleteSelectedRecords(SelectedRecords))
-		dispatch(SendDeleteHasRun(false))  
-		dispatch(ShowModalDeleteRecord(true))
-		dispatch(SendMessageBoxTitle('DELETE RECORD'))
-		dispatch(SendMessageRecordDelete('Are you sure you want to delete ' + EditFormData.IdentifiedPlant + '?'))
-	}
 	
 	function SelectRecordsToDelete(event, props) {
 		SelectedRecordIndex = Records.findIndex(function(item, i){
