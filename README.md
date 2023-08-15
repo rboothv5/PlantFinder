@@ -3,8 +3,8 @@ The Plant Finder application enables an image of an unknown plant to be uploaded
 After initiating the identification process and the outcome is produced, a list of reference images is displayed along with the predicted score relative to the original uploaded image. The plant with the highest score is the closest match to the current trained images in the model. The comparison results together with user information, comments and the uploaded image can optionally be saved to a PostgreSQL database and S3 storage bucket hosted in AWS.
 
 The application is containerized and is launched using Docker Compose which orchestrates and enables the sharing of multiple containers within the application. There are 5 containers: 
-
-	• Frontend 
+	
+ 	• Frontend 
 	• Backend 
 	• Postgres 
 	• Nginx – Reverse proxy enabling the application to map to port 80 instead of the default React port of 3000. 
@@ -12,25 +12,30 @@ The application is containerized and is launched using Docker Compose which orch
 
 Technology stack
 
-	Frontend:
-		• React 
-		• HTML5 
-		• CSS3 
-		• JavaScript
-		
-	Backend: 
-		• Django 
-		• Python
+Frontend:
+
+	• React 
+	• HTML5 
+	• CSS3 
+	• JavaScript
+ 
+Backend: 
 	
-	AWS: 
-		• EC2 
-		• Lambda 
-		• S3 
-		• Route53 
-		• API Gateway 
-		• RDS (PostgreSQL)
+ 	• Django 
+	• Python
+ 
+AWS: 
 	
-	DevOps: 
-		• Docker 
-		• Git
+ 	• EC2 
+	• Lambda 
+	• S3 
+	• Route53 
+	• API Gateway 
+	• RDS (PostgreSQL)
+ 
+DevOps: 
+
+ 	• Docker 
+	• Git
+
 
